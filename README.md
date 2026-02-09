@@ -1,16 +1,27 @@
-## Hi there 👋
+# Michael Forsythe Robinson
+**AI Systems Architect & Marketing Science Engineer**
 
-<!--
-**Michaelrobins938/Michaelrobins938** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I build production AI systems that generate measurable revenue, not prototypes that gather dust.
 
-Here are some ideas to get you started:
+## What I Ship
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+**Attribution & Marketing Science**  
+First-principles attribution frameworks combining Markov chains (causality), Shapley values (fairness), and Bayesian uncertainty quantification. Real-time probabilistic identity resolution for streaming platforms (78% accuracy, <100ms latency, GDPR/CCPA compliant).
+
+**Production ML Infrastructure**  
+End-to-end data pipelines on Kafka, Delta Lake, and Ray. Behavioral profiling systems revealing 30% ROI improvement through treatment effect heterogeneity. Live event attribution engines for sports advertising with time-decay models.
+
+**Recent Case Studies**
+- Geospatial lead generation: 214,384 qualified leads, 99.6% accuracy
+- - Contact rate optimization: 30% → 70% improvement
+  - - Automated product research: 2.6 sale-ready products daily, zero manual work
+   
+    - ## Core Stack
+    - Python · Apache Kafka · PostgreSQL · Next.js · Bayesian Statistics · Causal Inference · LLMs (Claude, GPT-4) · Make.com · Delta Lake
+   
+    - ## Selected Projects
+    - 👇 Pinned repositories below showcase production-grade attribution systems and ML infrastructure.
+   
+    - ---
+
+    📫 **Connect:** [LinkedIn](https://linkedin.com/in/your-profile) | [Portfolio](https://your-portfolio-url.com)
