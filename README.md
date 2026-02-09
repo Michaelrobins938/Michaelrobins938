@@ -1,5 +1,5 @@
 
- #Michael Forsythe Robinson
+ Michael Forsythe Robinson
 **AI Systems Architect & Marketing Science Engineer**
 
 <img width="1376" height="768" alt="profile banner" src="https://github.com/user-attachments/assets/15b51b17-befe-4ea2-bdad-618d3757112e" />
