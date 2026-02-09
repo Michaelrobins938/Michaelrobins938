@@ -1,6 +1,4 @@
-Here’s a fully cleaned and structured version of the **entire README** you can paste into the editor to replace everything.
 
-```md
 # Michael Forsythe Robinson  
 **AI Systems Architect & Marketing Science Engineer**
 
