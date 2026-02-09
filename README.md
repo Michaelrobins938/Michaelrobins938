@@ -10,7 +10,9 @@ I build production-grade AI systems that generate measurable revenue and withsta
 </div>
 
 ## 2025 Portfolio and Highlights
-View the presentation: [My 2025 Wrapped: A Year of Extreme Creation](https://github.com/Michaelrobins938/Michaelrobins938/raw/main/My_2025_Wrapped_A_Year_of_Extreme_Creation.pdf)
+View the presentation: <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/139e7605-93dc-4427-ae9f-224806bb7351" />
+
+]
 
 <details>
  <summary><b>Quick Stats</b></summary>
@@ -23,9 +25,17 @@ View the presentation: [My 2025 Wrapped: A Year of Extreme Creation](https://git
 
 </details>
 
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/f2d7f4a0-60ed-422c-9e87-03999049f5f9" />
+
 ---
 
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/160422ab-c645-4ac2-9666-f93fdfbcd739" />
+
+
 ## What I Ship
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/bcb5632a-4e6c-4dce-bab8-f18d9e4dee76" />
+
 
 ### Attribution Science & Causal Inference
 Most "attribution" is just weighted correlation with extra steps. I build systems grounded in **first-principles causal frameworks**:
@@ -124,6 +134,8 @@ Bayesian Statistics · Causal Inference (DoWhy, EconML) · LLMs (Claude, GPT-4) 
 - **Multi-touch attribution whitepaper (v2.0):** Formalizing the epistemic gap in correlation-based attribution models
 - **Streaming feature store:** Real-time feature computation for sub-100ms inference pipelines
 - **Open-source attribution library:** First-principles toolkit for marketing science teams
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/29ce67b3-2aed-4b1d-a152-43c967f2f598" />
 
 ---
 
