@@ -1,7 +1,39 @@
 # Michael Forsythe Robinson
 **AI Systems Architect & Marketing Science Engineer**
 
-I build production-grade AI systems that generate measurable revenue and withstand epistemic scrutiny. Not prototypes. Not correlation theater. Real causal inference infrastructure at scale.
+I build production-grade AI systems that generate measurable revenue and withstand 
+
+<div align="center">
+  
+  ![GitHub Stats](https://github-readme-stats.vercel.app/api?username=Michaelrobins938&show_icons=true&theme=radical&hide_border=true&count_private=true)
+  
+  </div>epistemic scrutiny. Not prototypes. Not correlation theater. Real causal inference 
+  
+  <details>
+    <summary><b>⚙️ System Architecture Example</b>b></summary>summary>
+  
+  ```mermaid
+graph LR
+    A[Event Stream<br/>Kafka] --> B[Feature Store<br/>Delta Lake]
+    B --> C[Attribution Engine<br/>Markov + Shapley]
+    C --> D[Bayesian UQ<br/>Confidence Bounds]
+    D --> E[API Layer<br/><100ms p99]
+    E --> F[Client Dashboard<br/>Real-time Insights]
+
+    style A fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#bfb,stroke:#333,stroke-width:2px
+    style E fill:#fbb,stroke:#333,stroke-width:2px
+```
+
+**Key Components:**
+- **Kafka**: Ingests 10K+ events/sec from web, mobile, server-side
+- - **Delta Lake**: Versioned feature store with time-travel for reproducibility
+  - - **Attribution Engine**: First-principles causal framework (not weighted correlation)
+    - - **Bayesian UQ**: Quantifies model uncertainty, prevents overconfident predictions
+      - - **API Layer**: Sub-100ms latency for real-time decisioning
+        -
+        - </details></b></summary>infrastructure at scale.
 
 <details>
   <summary><b>📊 Quick Stats</b>b></summary>summary>
@@ -113,3 +145,41 @@ I build production-grade AI systems that generate measurable revenue and withsta
                                               -
                                               - <sub>💡 **Pro tip:** If you're building attribution systems, check out my [first-principles framework](https://github.com/Michaelrobins938/first-principles-attribution) — it's the only open-source implementation of Markov+Shapley+Bayesian UQ I've seen that doesn't collapse into weighted last-touch under pressure.</sub></summary>
 </details>
+
+
+---
+
+## 📊 GitHub Activity
+
+<div align="center">
+
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Michaelrobins938&theme=radical&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Michaelrobins938&layout=compact&theme=radical&hide_border=true)
+
+</div>
+
+---
+
+## 🏅 Achievements & Recognition
+
+- 🎓 **Make Foundation Certified** — Advanced automation & integration specialist
+- - 📚 **Open-source contributor** — First-principles attribution framework (Markov+Shapley+Bayesian UQ)
+  - - 🏢 **Fortune 1000 experience** — Built secure systems for $5.4B market cap finance department
+    - - 🚀 **0→1 builder** — Scaled online community from 0 to 1,200 active members in 4 months
+     
+      - ---
+
+      <div align="center">
+
+      ### 💬 "The only way to do great work is to love what you do." — Steve Jobs
+
+      **Let's build something remarkable together.**
+
+      [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
+      [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:your@email.com)
+      [![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF6B6B?style=for-the-badge&logo=safari)](https://your-portfolio.com)
+
+      ![Profile Views](https://komarev.com/ghpvc/?username=Michaelrobins938&color=brightgreen&style=flat-square)
+
+      </div>
