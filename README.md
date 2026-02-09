@@ -1,6 +1,9 @@
 # Michael Forsythe Robinson
 **AI Systems Architect & Marketing Science Engineer**
 
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/15b51b17-befe-4ea2-bdad-618d3757112e" />
+
+
 I build production-grade AI systems that generate measurable revenue and withstand epistemic scrutiny. Not prototypes. Not correlation theater. Real causal inference infrastructure at scale.
 
 <div align="center">
@@ -138,6 +141,17 @@ Bayesian Statistics · Causal Inference (DoWhy, EconML) · LLMs (Claude, GPT-4) 
 <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/29ce67b3-2aed-4b1d-a152-43c967f2f598" />
 
 ---
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/98c98b16-543c-4373-9833-0487ca50d1b2" />
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/700dfd7b-2321-4252-8dbd-1c17fe1c5d15" />
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/182afa9f-bf5a-4d65-bc7e-2d6d609e87b2" />
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/3f4270cd-ebf0-4815-ab56-c3abca576142" />
+
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/ca470629-fbdd-43c3-91cf-fd4785febe18" />
+
 
 ## Let's Connect
 
@@ -523,9 +537,8 @@ I build production-grade AI systems that generate measurable revenue and withsta
                                                  
                                                             <div align="center">
                                                  
-                                                            ### "The only way to do great work is to love what you do." — Steve Jobs
-                                                 
-                                                            **Let's build something remarkable together.**
+                                                            ### "The <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/17e871a9-f68f-46b0-89c0-28ab1e8c537b" />
+
                                                  
                                                             [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/your-profile)
                                                             [![Email](https://img.shields.io/badge/Email-Contact-D14836?style=for-the-badge&logo=gmail)](mailto:your@email.com)
@@ -534,7 +547,8 @@ I build production-grade AI systems that generate measurable revenue and withsta
                                                             ![Profile Views](https://komarev.com/ghpvc/?username=Michaelrobins938&color=brightgreen&style=flat-square)
                                                  
                                                             </div>
-                                                 
+                       <img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/b09e4fd2-3098-4763-9148-6c2b68c55714" />
+                          
                                                             ---
                                                  
                                                             <sub>**Pro tip:** If you're building attribution systems, check out my [first-principles framework](https://github.com/Michaelrobins938/first-principles-attribution) — it's the only open-source implementation of Markov+Shapley+Bayesian UQ I've seen that doesn't collapse into weighted last-touch under pressure.</sub>
