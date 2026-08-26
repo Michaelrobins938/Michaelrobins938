@@ -1,6 +1,6 @@
 
 
-##Transmuted a Year of obstacle into 207,000 Lines of Code and a New Moral Blueprint for AI
+Transmuted a Year of obstacle into 207,000 Lines of Code and a New Moral Blueprint for AI
 
 ---
 
