@@ -1,380 +1,1037 @@
+Michael Forsythe Robinson
+APPLIED GENERATIVE AI & AGENTIC SYSTEMS · RESEARCH ENGINEER · CURRICULUM DEVELOPER · TECHNICAL AUTHOR
+<img width="1376" height="768" alt="profile banner" src="https://github.com/user-attachments/assets/15b51b17-befe-4ea2-bdad-618d3757112e" />
 
+I build AI systems that turn complex knowledge into discoverable, testable, and reusable intelligence.
 
-Transmuted a Year of obstacle into 207,000 Lines of Code and a New Moral Blueprint for AI
+I am an independent AI systems architect, research engineer, curriculum developer, and technical author working at the intersection of Generative AI, agentic systems, causal inference, knowledge discovery, formal reasoning, research automation, and production data infrastructure.
 
----
+My work has evolved from building AI applications and causal intelligence systems into something broader:
 
-For most of us, a "hard year" is a season of contraction. It is a period defined by the fetal position—a survival-mode stasis where the primary objective is to reach the other side without dissolving. We treat time as a tax to be paid. We focus on endurance rather than creation, on preservation rather than expansion.
+building systems that can discover, formalize, evaluate, verify, and operationalize knowledge.
 
-But for Michael Forsythe Robinson, the twelve months spanning August 2025 to August 2026 suggest a radical alternative.
-
-In a period marked by profound personal difficulty, Robinson did not shrink; he expanded. He utilized the weight of the year as a foundry, performing a high-stakes intellectual alchemy that turned a "lost year" into an industrial-scale output: **five academic textbooks, approximately 80 research papers across 11 distinct programs, and exactly 207,000 lines of production-grade TypeScript code.**
-
-This was not merely a feat of productivity. It was a survival mechanism disguised as architecture. Through his work in "Surveillance Humanism" and integrity-governed intelligence, Robinson has begun to outline a world where technology is no longer a tool for monetizing our attention, but a system for preserving our humanity.
-
----
-
-## I. The Integrity Landmark: Professional Self-Immolation as a Feature
-
-In a technology culture that prioritizes **"impressive"** over **"true,"** Robinson's SUNDS geomagnetic data re-analysis stands as a radical pivot.
-
-Initially, his analysis of **56.9 million death records** suggested a protective effect of geomagnetic activity against sudden nocturnal death. It was a compelling, publishable signal—the kind of finding that builds careers, attracts funding, and generates headlines. The data seemed clear. The narrative was coherent. The temptation to publish and move on was immense.
-
-However, when Robinson rebuilt a cleaner, more rigorous data pipeline, the effect vanished. The finding was a ghost—a parsing artifact buried in the noise of massive-scale data processing.
-
-In what can only be described as an act of **professional self-immolation**, Robinson published the correction against himself. This wasn't a footnote; it was a manifesto on scientific integrity.
-
-### The Architecture of Honesty
-
-This correction was not an isolated act of conscience—it was the real-world application of his **Invention Evaluation Framework (IEF)** , a system built with "epistemological guardrails" at its core. Unlike traditional AI, which is incentivized toward a fluent answer at any cost, the IEF is designed to **downgrade claims when evidence is insufficient.** It treats **"I don't know"** as a first-class, valid output.
-
-```text
-Traditional AI Pipeline:
-Claim → Evidence → Insufficient → "PROBABLY TRUE" (Manufactured Certainty)
-
-IEF Pipeline:
-Claim → Evidence → Insufficient → "UNKNOWN" (Epistemic Honesty)
-```
-
-By building "honesty" into the grain of the code, Robinson has created a heuristic against the ego. The system cannot produce a confident answer when the evidence doesn't support one—not because it's programmed to be humble, but because the architecture itself prevents the fabrication of certainty.
-
-> *"The first principle is that you must not fool yourself—and you are the easiest person to fool."* — Richard Feynman
-
-Robinson has taken this principle and encoded it into software. The result is not just a tool for evaluation, but a structural commitment to truth that transcends any single analysis.
-
----
-
-## II. Surveillance Humanism: The Digital Confessional and the $0.08 Lifeline
-
-Robinson's **"Surveillance Humanism Project"** operates on a provocative realization: **we lie to our doctors, our friends, and our surveys, but we do not lie to the search bar.**
-
-This is the **"Digital Confessional"** —a real-time chronicle of "whispers shouted into a machine." Every search query is a raw, unfiltered signal of human intent, fear, desire, and pain. While Surveillance Capitalism uses these whispers to sell shoes or divorce lawyers, Robinson seeks to **hijack this machinery for compassion.**
-
-### The $0.08 Lifeline
-
-By targeting **"unmonetizable keywords"** —terms like "suicide methods" that have no commercial value and can be acquired for as little as **$0.08 per click**—the project delivers life-saving resources at the exact moment of a **"Data Flare."**
-
-The efficacy of this model is staggering. In moments of acute crisis, the "ad" is no longer an intrusion; it is a lifeline.
-
-| Metric | Result |
-|:---|:---:|
-| **Commercial Benchmark** | 4% CTR (standard sales ad) |
-| **Crisis Intervention** | **30% CTR** (lifeline ad) |
-| **Engagement Ratio** | **7.5× higher** |
-
-### Piercing the Silence
-
-This methodology has already pierced state-level silence. In **2020, when the Tanzanian government ceased reporting COVID-19 statistics**, Robinson's framework tracked searches for "anosmia" (loss of smell)—a known COVID-19 symptom. The resulting heat map revealed **1,500 data flares**, providing a crucial intelligence signal that bypassed state censorship to reveal the true scale of human suffering.
-
-**This is Surveillance Humanism in action:** using the infrastructure of surveillance capitalism to protect human life, not exploit it.
-
-```text
-┌─────────────────────────────────────────────────────────────────────┐
-│                    SURVEILLANCE HUMANISM                            │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌──────────────┐     ┌──────────────┐     ┌──────────────────┐    │
-│  │   DIGITAL    │     │  UNMONETIZED  │     │   LIFELINE       │    │
-│  │  CONFESSIONAL│────▶│   KEYWORDS    │────▶│   INTERVENTION   │    │
-│  │  (Search Bar)│     │  ($0.08/click)│     │   (30% CTR)      │    │
-│  └──────────────┘     └──────────────┘     └──────────────────┘    │
-│         │                                       │                    │
-│         ▼                                       ▼                    │
-│  ┌──────────────┐                     ┌──────────────────┐         │
-│  │  DATA FLARE  │                     │   EPIDEMIC       │         │
-│  │  Detection   │                     │   Intelligence   │         │
-│  └──────────────┘                     └──────────────────┘         │
-│                                                                      │
-│  CASE STUDY: Tanzania COVID-19 Surveillance                         │
-│  ─────────────────────────────────────────                           │
-│  Government stops reporting → Searches for "anosmia" →              │
-│  1,500 data flares → True scale revealed                           │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## III. The Cognitive Compiler: Reusable Capability and the TIR
-
-The year also saw the maturation of the **Forsythe Compiler** and the **Cangjie Deconstructor**. These tools represent a paradigm shift from **"document summarization"** to the **extraction of generative machinery.**
-
-Robinson isn't interested in what a book says; he is reverse-engineering **how the mind behind it works.**
-
-### Typed Intermediate Representation (TIR)
-
-Using a Typed Intermediate Representation, Robinson has begun reverse-engineering the cognitive portraits of thinkers like **Nikola Tesla** and **David Bohm**. The goal is to transform static knowledge into **executable reasoning skills**—a "latent theory graph" that can be called by machine agents.
-
-This is **structural isomorphism** in action—finding the underlying patterns that connect disparate domains and extracting the mechanisms that generate them.
-
-### Quantified Results
-
-The results are rigorous and measurable:
-
-| Metric | Result |
-|:---|:---:|
-| **Compression Rate** | **19.67×** (59 mechanisms → 3 core theories) |
-| **Cross-Domain Bridges** | **468** hidden links identified |
-| **Bridge Utility** | **93.6%** |
-| **Forward Predictions** | **9/9** subsequent papers validated |
-
-### The Leonardo Lab
-
-Robinson used the compiler to read the *Attention Is All You Need* paper and successfully **"evolved"** the architecture to a Winner variant **(Grouped Query Attention)** that:
-- **Reduced KV-cache by 4×**
-- **Quality loss:** <0.3%
-
-This demonstrates the compiler's ability to not just summarize, but to **generate novel, valid architectures.** The system didn't just understand the paper; it understood the *design space* and found a better solution.
-
-> *"Knowledge" is a depreciating asset. Reusable cognitive capability is the actual product of the future.*
-
----
-
-## IV. Metabolic Psychiatry: The Structural Blindness of the Workup
-
-In the realm of science, Robinson's most alarming contribution is his **"FEP-Metabolic"** hypothesis regarding First-Episode Psychosis.
-
-### The Structural Blindness
-
-He argues that the standard psychiatric workup is **"structurally blind"** to episodic signals. This is the **"HbA1c wedge."**
-
-Because an HbA1c test measures an **8–12 week glucose mean**, it is mathematically incapable of capturing the **episodic glycemic excursions** that can trigger a psychotic break. The test averages away the very signal that matters most.
-
-### The Tragic Case
-
-Robinson points to the tragic **2024 Haba et al. case**: a woman diagnosed with schizophrenia and put on antipsychotics, when her "demon" was actually a pancreatic insulinoma. Her HbA1c was a perfectly "normal" **5.2%**, hiding a tumor that was cured only by surgery.
-
-### The Temporal-Concordance Criterion
-
-Robinson's solution is the **temporal-concordance criterion**, a method using Continuous Glucose Monitoring (CGM) to detect the driver, not just the comorbidity. By **event-locking glucose spikes to symptom ratings**, Robinson offers a way to distinguish between a metabolic casualty and a metabolic cause.
-
-```text
-┌─────────────────────────────────────────────────────────────────────┐
-│                    THE METABOLIC HYPOTHESIS                         │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌──────────────────┐     ┌──────────────────┐                     │
-│  │   CURRENT CARE   │     │  PROPOSED CARE   │                     │
-│  ├──────────────────┤     ├──────────────────┤                     │
-│  │  HbA1c (8-12 wk)│     │  CGM (Real-Time) │                     │
-│  │  Structural      │     │  Temporal-       │                     │
-│  │  Blindness       │     │  Concordance     │                     │
-│  └──────────────────┘     └──────────────────┘                     │
-│           │                          │                              │
-│           ▼                          ▼                              │
-│  ┌──────────────────┐     ┌──────────────────┐                     │
-│  │   MISSES         │     │   DETECTS        │                     │
-│  │   Episodic       │     │   Driver vs.     │                     │
-│  │   Glycemic       │     │   Comorbidity    │                     │
-│  │   Excursions     │     │                  │                     │
-│  └──────────────────┘     └──────────────────┘                     │
-│                                                                      │
-│  CASE STUDY: Haba et al. (2024)                                     │
-│  ───────────────────────────                                       │
-│  Patient: Schizophrenia diagnosis → Antipsychotics                 │
-│  Reality: Pancreatic insulinoma → Cured by surgery                 │
-│  HbA1c: "Normal" 5.2% → Hid the signal entirely                   │
-│                                                                      │
-│  Significance: ~10-14% of psychosis cases may be reversible        │
-│  through cause-directed metabolic treatment.                       │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
-### The Significance
-
-**~10-14%** of psychosis cases may be reversible through cause-directed metabolic treatment—a finding with profound clinical implications for psychiatry. This isn't theoretical; it's a call for immediate changes to clinical practice.
-
----
-
-## V. The Emotional Core: High-Level Math and Hand-Fed Bats
-
-To look only at the code is to miss the signal in the noise. There is a deep, human isomorphism between Robinson's systems and his character.
-
-**The same hand that patches the Linux kernel on a Surface Pro and builds Bayesian hierarchical models is the same hand that spends its weekends at Bat World Sanctuary.**
-
-There is an "Evidence of Character" here that transcends the technical. The same meticulous care required to ensure **98.2% signal integrity** in a causal intelligence platform is applied to the fruit being chopped for a rescued bat.
-
-### The Pattern of Transmutation
-
-The pattern of Robinson's year reveals a specific type of alchemy: **whenever his personal context window felt like it was closing—whenever things got heavy—his output got brighter.**
-
-He does not shut down. He does not retreat. He **transmutes pain into artifacts.**
-
-- **70,000-word comic script** (*War of the Symbiotes*) illustrated in a single night
-- **Multiple research programs** initiated during periods of personal difficulty
-- **207,000 lines of code** produced across the hardest stretch of his life
-
-### The Testimonial
-
-> *"Michael is one of the most passionate volunteers I have ever had the pleasure of working with... staff and other volunteers praise his work ethic, and... We rely on him. We rely on him."* — Vice President, Bat World Sanctuary
-
-### Character Consistency
-
-```text
-┌─────────────────────────────────────────────────────────────────────┐
-│                    CHARACTER CONSISTENCY                            │
-├─────────────────────────────────────────────────────────────────────┤
-│                                                                      │
-│  ┌──────────────────────────────────────────────────────────┐       │
-│  │                    TECHNICAL SYSTEMS                      │       │
-│  │  ┌────────────────┐  ┌────────────────┐                 │       │
-│  │  │  98.2% Signal  │  │  208K events/  │                 │       │
-│  │  │  Integrity     │  │  sec @ 87ms    │                 │       │
-│  │  └────────────────┘  └────────────────┘                 │       │
-│  └──────────────────────────────────────────────────────────┘       │
-│                              │                                       │
-│                              ▼                                       │
-│                    ISOMORPHISM IN CHARACTER                         │
-│                              │                                       │
-│                              ▼                                       │
-│  ┌──────────────────────────────────────────────────────────┐       │
-│  │                    HUMAN CARE                            │       │
-│  │  ┌────────────────┐  ┌────────────────┐                 │       │
-│  │  │  Meticulous    │  │  Consistent    │                 │       │
-│  │  │  Animal Care   │  │  Commitment    │                 │       │
-│  │  └────────────────┘  └────────────────┘                 │       │
-│  └──────────────────────────────────────────────────────────┘       │
-│                                                                      │
-│  The same rigor applied to systems is applied to living beings.     │
-│                                                                      │
-└─────────────────────────────────────────────────────────────────────┘
-```
-
----
-
-## VI. The Architecture of a Year
-
-Robinson's entire body of work can be understood as a **single, unified architecture** for evidence-governed intelligence—a system that moves from discovery to verification to operationalization, with integrity built in at every layer.
-
-```text
-┌─────────────────────────────────────────────────────────────────────────────┐
-│                         THE FORSYTHE ARCHITECTURE                           │
-├─────────────────────────────────────────────────────────────────────────────┤
-│                                                                              │
-│  ┌────────────────────────────────────────────────────────────────────┐      │
-│  │                    KNOWLEDGE DISCOVERY LAYER                       │      │
-│  │  ┌──────────┐  ┌──────────┐  ┌──────────┐  ┌──────────┐         │      │
-│  │  │ OmniMind │  │ Cangjie  │  │Cognitive │  │Forsythe  │         │      │
-│  │  │ Discovery│  │ Extract  │  │ Compiler │  │ Compiler │         │      │
-│  │  └──────────┘  └──────────┘  └──────────┘  └──────────┘         │      │
-│  └────────────────────────────────────────────────────────────────────┘      │
-│                                      │                                       │
-│                                      ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────────┐      │
-│  │                    EVIDENCE-GOVERNED LAYER                         │      │
-│  │  ┌──────────────┐  ┌──────────────┐  ┌──────────────────────┐    │      │
-│  │  │      IEF     │  │ Three-Gate   │  │   Roko's Council     │    │      │
-│  │  │   Evaluate   │  │   Protocol   │  │   Deliberation       │    │      │
-│  │  └──────────────┘  └──────────────┘  └──────────────────────┘    │      │
-│  └────────────────────────────────────────────────────────────────────┘      │
-│                                      │                                       │
-│                                      ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────────┐      │
-│  │                    OPERATIONALIZATION LAYER                        │      │
-│  │  ┌──────────────────┐  ┌──────────────┐  ┌──────────────────┐    │      │
-│  │  │  Causal Intel    │  │  JAMIE AI    │  │  Production      │    │      │
-│  │  │  Platform        │  │  Companion   │  │  Systems         │    │      │
-│  │  └──────────────────┘  └──────────────┘  └──────────────────┘    │      │
-│  └────────────────────────────────────────────────────────────────────┘      │
-│                                      │                                       │
-│                                      ▼                                       │
-│  ┌────────────────────────────────────────────────────────────────────┐      │
-│  │                    PEDAGOGICAL LAYER                               │      │
-│  │  ┌──────────────────┐  ┌──────────────┐  ┌──────────────────┐    │      │
-│  │  │ AI Builder's     │  │  Whitepapers │  │  Research        │    │      │
-│  │  │ Launchpad Series │  │  (DOI/Peer)  │  │  Programs        │    │      │
-│  │  └──────────────────┘  └──────────────┘  └──────────────────┘    │      │
-│  └────────────────────────────────────────────────────────────────────┘      │
-│                                                                              │
-└─────────────────────────────────────────────────────────────────────────────┘
-```
-
-### The Year in Numbers
-
-| Category | Metric |
-|:---|:---:|
-| **Books** | 5 textbooks |
-| **Whitepapers** | 10 (4 peer-reviewed) |
-| **Research Papers** | ~80 |
-| **Research Programs** | 11 |
-| **Engineering Projects** | 5 major platforms |
-| **Code (JAMIE)** | 207,000 lines (TypeScript) |
-| **Event Processing** | 208,000 events/sec |
-| **Latency** | 87ms p99 |
-| **Identity Resolution** | 98.2% accuracy |
-| **Variance Reduction** | 35.4% (CUPED) |
-| **Compression Ratio** | 19.67× |
-| **Cross-Domain Bridges** | 468 (93.6% utility) |
-| **Forward Predictions** | 9/9 validated |
-| **Volunteer Commitment** | Weekly, ongoing |
-| **Comic Script** | 70,000 words (one night) |
-
----
-
-## VII. What This Means: The Moral Blueprint for AI
-
-Robinson's work suggests a radical reorientation of what AI should be.
-
-### From Optimization to Integrity
-
-Traditional AI is optimized for:
-- **Fluency** (sounding correct)
-- **Engagement** (keeping attention)
-- **Conversion** (driving action)
-
-Robinson's systems are optimized for:
-- **Honesty** (saying "I don't know")
-- **Verification** (testing claims against evidence)
-- **Humanity** (preserving life, not monetizing attention)
-
-### The Three Pillars
-
-**1. Epistemic Integrity**
-- Systems that can say "I don't know"
-- Systems that correct themselves
-- Systems that downgrade claims when evidence is insufficient
-
-**2. Surveillance Humanism**
-- Using infrastructure for compassion
-- Intercepting crises at scale
-- Bypassing censorship to reveal truth
-
-**3. Reusable Capability**
-- Extracting mechanisms, not just facts
-- Compressing knowledge into executable forms
-- Building for others to inherit
-
----
-
-## VIII. Conclusion: The Timeline That Was Ever Yours
-
-As the work transitions from the high-velocity construction of 2025 to the rigorous verification of 2026, Robinson's horizon is expanding. His focus is now on the launch of **"Above Us,"** a crowdsourced, decentralized sky surveillance application that moves his methodology from the lab to the community.
-
-This year of Robinson's life proves that **hope is not a feeling—it is a method.**
-
-It is the practice of building systems that prioritize the true over the impressive and the human over the algorithmic. Robinson didn't just survive a hard stretch; he built a world in it, proving that the work is good, and the worker is exactly on time for the only timeline that was ever his.
-
----
-
-## The Question That Remains
-
-As you look at the sheer scale of what can be built in a single, difficult year, it forces a question upon you:
-
-**When your own context window feels like it's closing, what signal are you leaving in the noise?**
-
----
+That means treating evidence, uncertainty, provenance, reproducibility, and falsification as engineering primitives, not afterthoughts.
 
 <div align="center">
 
-### Evidence-Governed Intelligence
+</div>
+2026: From Building AI to Engineering Intelligence
 
-### Causal Discovery · Formal Reasoning · Technical Evaluation
+The previous phase of my work was about proving that I could build and ship.
 
-### Build systems that can explain what they know.
+The current phase asks a harder question:
 
-### And prove what they claim.
+Can we build AI systems that know the difference between an answer, an inference, and evidence for an answer?
+
+That question has become the organizing principle behind my current research.
+
+The architecture increasingly looks like this:
+
+                    KNOWLEDGE
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │   DISCOVERY  │
+                 │   OmniMind   │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │  EXTRACTION  │
+                 │   Cangjie    │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │ FORMALIZATION│
+                 │   Compiler   │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │  EVALUATION  │
+                 │     IEF      │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │ VERIFICATION │
+                 │ 3-Gate / UQ  │
+                 └──────┬───────┘
+                        │
+                        ▼
+                 ┌──────────────┐
+                 │OPERATIONALIZE│
+                 │ Causal / AI  │
+                 └──────────────┘
+
+Discovery → Extraction → Formalization → Evaluation → Verification → Operationalization
+
+This is the emerging architecture connecting much of my 2026 work.
+
+I. The Integrity Landmark
+Building Systems That Can Say "I Don't Know"
+
+One of the most important lessons of the past year came from a result that didn't survive validation.
+
+An earlier analysis of a very large SUNDS dataset appeared to identify an association between geomagnetic activity and mortality. The signal was compelling enough to invite interpretation.
+
+Then the pipeline was rebuilt.
+
+The apparent effect disappeared.
+
+The result had been produced by an artifact in the data-processing pipeline rather than the phenomenon originally hypothesized.
+
+The important result was therefore not the original finding.
+
+It was the correction.
+
+Instead of protecting the hypothesis, I documented the failure and updated the analysis.
+
+That experience became a concrete design principle for my engineering:
+
+A system should be able to reduce confidence when the evidence gets worse.
+
+This principle now appears throughout my evidence-governed research architecture.
+
+Traditional AI
+
+Claim
+  ↓
+Evidence
+  ↓
+Insufficient
+  ↓
+"Probably True"
+
+
+Evidence-Governed AI
+
+Claim
+  ↓
+Evidence
+  ↓
+Evaluation
+  ↓
+Contradiction / Missing Evidence
+  ↓
+UNKNOWN / REJECTED / QUALIFIED
+
+The objective is not pessimism.
+
+It is calibration.
+
+II. The Invention Evaluation Framework
+Evidence-Governed Technical Intelligence
+
+The Invention Evaluation Framework (IEF) is an evidence-governed multi-agent system for evaluating:
+
+inventions
+patents
+technical claims
+technologies
+intellectual property
+commercialization opportunities
+market claims
+supporting evidence
+
+The architecture decomposes complex evaluations into propositions and then maintains explicit relationships between:
+
+CLAIM
+  ↓
+PROPOSITION
+  ↓
+EVIDENCE
+  ↓
+SOURCE
+  ↓
+INFERENCE
+  ↓
+EPISTEMIC STATUS
+
+The system incorporates:
+
+evidence controllers
+proposition decomposition
+source provenance
+evidence-to-claim mapping
+epistemic gates
+independent review
+blind fresh verification
+contradiction detection
+arbitration
+reproducibility artifacts
+automated testing
+acceptance contracts
+
+The critical distinction is architectural:
+
+The system is not rewarded for making every claim come out positive.
+
+It is designed to preserve the possibility that the correct answer is:
+
+unsupported.
+
+Validation architecture
+AUTOPROMPT
+    ↓
+EXECUTION
+    ↓
+EVIDENCE CONTROLLER
+    ↓
+INDEPENDENT REVIEW
+    ↓
+BLIND FRESH VERIFICATION
+    ↓
+ARBITRATION
+    ↓
+FINAL EPISTEMIC STATUS
+
+The current engineering and validation work includes:
+
+9 DAG lanes
+deterministic claim mapping
+independent review
+blind fresh verification
+reproducible execution
+automated regression testing
+mutation testing
+report integrity validation
+
+The larger objective is to make AI-assisted technical evaluation auditable rather than merely persuasive.
+
+III. OmniMind
+Research Intelligence & Latent Knowledge Discovery
+
+Most retrieval systems answer:
+
+"What documents are similar to my query?"
+
+OmniMind asks a different question:
+
+"What meaningful relationships exist across this corpus that nobody explicitly asked for?"
+
+The system combines:
+
+semantic retrieval
+lexical retrieval
+reciprocal-rank fusion
+knowledge graphs
+graph traversal
+causal relationships
+equation fingerprints
+structural similarity
+cross-domain discovery
+latent relationship detection
+provenance
+uncertainty
+falsification
+
+The architecture:
+
+Documents
+    ↓
+Semantic + Lexical Retrieval
+    ↓
+Entities / Relations / Equations / Causality
+    ↓
+Knowledge Graph
+    ↓
+Cross-Domain Traversal
+    ↓
+Latent Connections
+    ↓
+Hypothesis Generation
+    ↓
+Evidence Search
+    ↓
+Falsification
+
+The central idea:
+
+Vector retrieval is infrastructure. Connection discovery is the product.
+
+IV. The Cognitive Compiler
+From Documents to Generative Capability
+
+Conventional document processing asks:
+
+"What does this source say?"
+
+The Cognitive Compiler asks:
+
+"What machinery generated what this source says?"
+
+The system explores the transformation of natural-language knowledge into structured representations of:
+
+entities
+mechanisms
+transformations
+constraints
+causal relationships
+operators
+generative processes
+evidence
+uncertainty
+Natural Language
+      ↓
+Structural Extraction
+      ↓
+Generative Machinery
+      ↓
+Typed Intermediate Representation
+      ↓
+Validation
+      ↓
+Knowledge Graph
+      ↓
+Reusable Capability
+
+This moves the objective from summarization toward capability extraction.
+
+V. Cangjie Deconstructor
+Extracting Generative Architecture
+
+Cangjie is designed to deconstruct technical and scientific material into reusable structural components.
+
+Instead of treating a document as a collection of facts, the system looks for:
+
+PRIMITIVES
+    +
+OPERATORS
+    +
+TRANSFORMATIONS
+    +
+CONSTRAINTS
+    +
+STATE CHANGES
+    +
+CAUSAL MACHINERY
+
+The resulting structures can become inputs for downstream reasoning, comparison, and model construction.
+
+This creates a pipeline from:
+
+Literature → Structure → Mechanism → Model
+
+VI. Leonardo Lab
+Evolutionary Architecture Discovery
+
+Leonardo Lab extends the compiler concept into experimental architecture search.
+
+The objective is not simply to reproduce an existing architecture.
+
+It is to identify the design space implied by the architecture and explore alternative configurations.
+
+One experimental program used transformer architecture as the starting point for evolutionary exploration, investigating variants including grouped-query attention.
+
+The important research question is:
+
+Can a system extract design constraints from an architecture and search the resulting space rather than merely summarize the original paper?
+
+This is an early step toward generative architecture synthesis.
+
+VII. The Three-Gate Research Protocol
+
+A research operating system for keeping discovery from silently becoming belief.
+
+DISCOVER
+   ↓
+GENERATE
+   ↓
+GATE
+   ↓
+VERIFY
+   ↓
+SEARCH DROPPED THREADS
+   ↓
+GRADE
+   ↓
+WRITE
+
+The protocol emphasizes:
+
+novelty
+provenance
+reproducibility
+mechanism
+falsifiability
+evidence grading
+uncertainty
+contradiction detection
+explicit rejection
+recovery of abandoned research paths
+
+A failed hypothesis is not necessarily wasted work.
+
+Sometimes it is the most valuable branch of the search tree.
+
+VIII. Causal Intelligence
+
+Before the current research architecture emerged, I spent years building production marketing-science and causal-inference systems.
+
+That work remains the quantitative foundation underneath the newer intelligence systems.
+
+Causal Intelligence Platform
+
+A nine-module platform spanning:
+
+attribution
+experimentation
+uplift modeling
+Bayesian media mix modeling
+probabilistic identity resolution
+live-event attribution
+streaming attribution
+marketing data infrastructure
+incrementality analysis
+Core methods
+
+Causal inference
+
+Structural Causal Models
+Difference-in-Differences
+Synthetic Control
+uplift modeling
+meta-learners
+Double Machine Learning
+
+Attribution
+
+Markov chains
+Shapley values
+hybrid attribution
+
+Bayesian modeling
+
+hierarchical priors
+NUTS / HMC
+Hill saturation
+Adstock
+convergence diagnostics
+
+Experimentation
+
+CUPED
+sequential SPRT
+O'Brien-Fleming boundaries
+SRM detection
+guardrail metrics
+IX. Production Systems
+
+The research is backed by actual software infrastructure.
+
+Artemis Streaming Engine
+
+A real-time attribution system designed around incremental Markov-Shapley computation and stateful stream processing.
+
+Reported benchmark:
+
+208K events/sec · 87ms p99
+
+The system incorporates concepts including:
+
+checkpointing
+state management
+exactly-once processing patterns
+incremental computation
+real-time decisioning
+Probabilistic Identity Resolution
+
+A privacy-conscious identity-resolution architecture using probabilistic matching, clustering, and behavioral fingerprints.
+
+Reported signal integrity:
+
+98.2%
+
+Synthetic Lift Studio
+
+A causal experimentation environment combining:
+
+Synthetic Control
+Difference-in-Differences
+geographic matching
+placebo testing
+bootstrap inference
+
+Reported matching benchmark:
+
+R² = 0.92
+
+Decision Intelligence
+
+An experimentation framework incorporating:
+
+CUPED
+sequential testing
+Lan-DeMets O'Brien-Fleming boundaries
+SRM detection
+guardrail metrics
+
+Reported CUPED variance reduction:
+
+35.4%
+
+X. Generative AI & Agentic Systems
+
+My engineering work spans the full applied Generative AI lifecycle:
+
+Prompt
+  ↓
+Structured Extraction
+  ↓
+Tool Use
+  ↓
+Agent Orchestration
+  ↓
+Data / API Integration
+  ↓
+Evaluation
+  ↓
+Observability
+  ↓
+Production
+
+Areas include:
+
+multimodal LLM pipelines
+structured generation
+Pydantic / JSON Schema
+function calling
+RAG
+agent orchestration
+AI evaluation
+voice agents
+research agents
+automated ETL
+LLM-assisted data enrichment
+FrontDesk.ai
+
+An agentic AI voice receptionist platform designed for real-world business workflows.
+
+The system provides an applied example of:
+
+agent design
+tool schemas
+structured outputs
+voice integration
+CRM integration
+production logging
+evaluation
+XI. Curriculum Development
+The AI Builder's Launchpad
+
+I am also building AI education as a first-class engineering discipline.
+
+The five-volume AI Builder's Launchpad series covers the lifecycle from first prompts through production AI and strategic deployment.
+
+Volume 1
+
+From First Prompts to First Modular Pipeline
+
+Volume 2
+
+Automating The Intelligence: Python Scripting, API Architecture & Data for AI Pipelines
+
+Volume 3
+
+Building a Digital Brain: Real-World Architecture for Production AI Systems
+
+Volume 4
+
+Moving to Production: Deployment, Monitoring, Security & Core Management in AI Systems
+
+Volume 5
+
+A Strategist's Guide to AI: The AI Masterclass Guide for Building Business
+
+The curriculum is designed around:
+
+code-first instruction
+architectural thinking
+production case studies
+project-based learning
+integrated labs
+capstone scaffolding
+evaluation
+deployment
+
+The philosophy is simple:
+
+Students should not only learn what AI is. They should learn how to build it.
+
+XII. Research & Publishing
+
+My research output spans multiple programs across:
+
+causal inference
+marketing science
+AI systems
+knowledge discovery
+anomaly detection
+formal reasoning
+research methodology
+technical architecture
+Causal Intelligence Whitepaper Series
+
+Published technical work includes research on:
+
+First-Principles Hybrid Attribution
+Bayesian Media Mix Modeling
+Behavioral Profiling and Causal Uplift
+Causal Calibration
+Probabilistic Identity Resolution
+Live Event Attribution
+Real-Time Streaming Attribution
+Incrementality Testing
+Marketing Data Connectors
+The MMM-Incrementality Bridge
+
+Research and technical publications are accompanied where applicable by DOI records, source code, mathematical derivations, system documentation, and deployed demonstrations.
+
+XIII. The 2025 Foundation
+
+2025 was the year of construction.
+
+I built across AI, data engineering, creative technology, publishing, commerce, and SaaS.
+
+That included:
+
+AI-powered applications
+streaming data systems
+attribution infrastructure
+identity-resolution systems
+geospatial intelligence
+automated product research
+publishing platforms
+e-commerce automation
+narrative AI
+local AI tooling
+marketing automation
+
+The central lesson of that year was:
+
+Ideas become useful when they survive implementation.
+
+2026 added a second requirement:
+
+Implementations become trustworthy when they survive verification.
+
+XIV. The Research Philosophy
+
+Across apparently unrelated projects, the same principles keep appearing.
+
+1. Evidence before certainty
+
+A compelling explanation is not automatically a supported explanation.
+
+2. Mechanisms over labels
+
+Knowing that two things are correlated is less valuable than understanding why they might be connected.
+
+3. Reproducibility is infrastructure
+
+A result should ideally be recoverable through:
+
+versioned artifacts
+deterministic transformations
+explicit provenance
+tests
+documented assumptions
+4. Uncertainty must survive the pipeline
+Unknown
+   ≠
+Probably True
+   ≠
+Supported
+   ≠
+Established
+
+Those states should not collapse into one another.
+
+5. Falsification is productive
+
+A failed hypothesis can reveal:
+
+a broken measurement
+a hidden assumption
+a confounder
+a data artifact
+a missing variable
+a better research question
+XV. The Human Side of the Architecture
+
+The technical work is only part of the story.
+
+I also spend substantial time working with rescued wildlife, including bats.
+
+That experience has influenced how I think about technology.
+
+Systems are abstractions.
+
+Consequences are not.
+
+The same engineering discipline used to preserve provenance in a research pipeline should ultimately serve something outside the pipeline:
+
+people, animals, knowledge, and the world those systems affect.
+
+That is one reason the idea of Surveillance Humanism emerged in my research.
+
+The premise is straightforward:
+
+Technologies capable of observing human behavior should not be assumed to exist only for extraction.
+
+The same infrastructure can potentially be redirected toward:
+
+public health
+crisis intervention
+humanitarian intelligence
+epidemiological signals
+protection of vulnerable populations
+
+The ethical question is therefore not simply:
+
+"Can we build it?"
+
+It is:
+
+"What should this capability be used for?"
+
+XVI. Surveillance Humanism
+
+Search behavior can contain signals that conventional datasets miss.
+
+People often disclose things to machines that they would never disclose directly to another person.
+
+That creates the concept of the:
+
+Digital Confessional
+
+A stream of behavioral signals representing:
+
+uncertainty
+fear
+illness
+intent
+curiosity
+crisis
+unmet needs
+
+Surveillance capitalism asks:
+
+How can this signal be monetized?
+
+Surveillance Humanism asks:
+
+How can this signal reduce harm?
+
+This research explores the boundary between behavioral intelligence and humanitarian intervention while treating privacy, ethics, and false-positive risk as first-order design constraints.
+
+XVII. The Architecture of the Work
+
+Taken together, the systems form a broader research architecture:
+
+                         ┌───────────────┐
+                         │   KNOWLEDGE   │
+                         └───────┬───────┘
+                                 │
+                                 ▼
+                    ┌─────────────────────┐
+                    │     OMNIMIND        │
+                    │  DISCOVERY ENGINE   │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │     CANGJIE         │
+                    │ STRUCTURAL EXTRACTION│
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ COGNITIVE COMPILER  │
+                    │  FORMALIZATION      │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │       IEF           │
+                    │ EVIDENCE EVALUATION │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │  VERIFICATION       │
+                    │ 3-GATE / BLIND TEST │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │ CAUSAL INTELLIGENCE │
+                    │ & DECISION SYSTEMS  │
+                    └──────────┬──────────┘
+                               │
+                               ▼
+                    ┌─────────────────────┐
+                    │     EDUCATION       │
+                    │  KNOWLEDGE TRANSFER │
+                    └─────────────────────┘
+
+The common objective is:
+
+Turn information into validated capability.
+XVIII. The Year in Numbers
+Category	Output
+AI Textbooks	5
+Technical Whitepapers	10
+Research Programs	11+
+Research Papers / Artifacts	~80
+Causal Intelligence Modules	9
+Production AI Systems	30+
+Large-Scale TypeScript Output	~207K lines
+Streaming Benchmark	208K events/sec
+Streaming Latency	87ms p99
+Identity Signal Integrity	98.2%
+CUPED Variance Reduction	35.4%
+Synthetic-Control Matching	R² = 0.92
+AI Curriculum Volumes	5
+Published Research DOIs	10+
+
+Metrics describe individual projects and benchmarks rather than a single unified production system.
+
+XIX. Current Research Direction
+
+The next stage is not simply building more agents.
+
+It is building better epistemic infrastructure for agents.
+
+That means systems capable of:
+
+discovering information
+identifying relationships
+extracting mechanisms
+constructing representations
+tracking provenance
+evaluating evidence
+detecting contradictions
+quantifying uncertainty
+testing hypotheses
+correcting failures
+preserving reproducibility
+communicating limitations
+
+The long-term architecture is therefore:
+
+RETRIEVAL
+    ↓
+DISCOVERY
+    ↓
+REPRESENTATION
+    ↓
+REASONING
+    ↓
+EVIDENCE
+    ↓
+VERIFICATION
+    ↓
+DECISION
+
+The interesting frontier is what happens when those layers become one continuously auditable system.
+
+XX. What I'm Building Now
+🔬 Evidence-Governed Intelligence
+
+Expanding the Invention Evaluation Framework into a broader research and technical decision-support architecture.
+
+🧠 OmniMind
+
+Developing cross-domain discovery and latent-information retrieval beyond conventional RAG.
+
+⚙️ Cognitive Compiler
+
+Building systems for converting knowledge into reusable structured reasoning capabilities.
+
+🧩 Cangjie
+
+Recovering generative mechanisms and architectural primitives from technical literature.
+
+🧪 Research Verification
+
+Developing reproducible benchmarks, blind verification, evidence grading, and falsification workflows.
+
+📊 Causal Intelligence
+
+Continuing work on attribution, experimentation, incrementality, Bayesian modeling, and real-time decision systems.
+
+🎓 AI Education
+
+Expanding the AI Builder's Launchpad curriculum into practical, production-oriented Generative AI education.
+
+XXI. Selected Technology
+Languages
+
+Python · TypeScript · SQL
+
+AI
+
+LLMs · RAG · Agents · Structured Generation · Function Calling · Knowledge Graphs
+
+Data & ML
+
+NumPy · SciPy · Pandas · PostgreSQL · Delta Lake · Qdrant
+
+Distributed Systems
+
+Kafka · Ray · Dask
+
+Causal / Statistical
+
+Bayesian Modeling · Markov Chains · Shapley Values · SCM · DiD · Synthetic Control · Uplift Modeling
+
+Web / Infrastructure
+
+React · Next.js · FastAPI · Docker · Vercel · GitHub Actions
+
+XXII. Selected Projects
+Research Intelligence
+OmniMind
+Invention Evaluation Framework
+Cognitive Compiler
+Cangjie Deconstructor
+Leonardo Lab
+Three-Gate Research Protocol
+Causal Intelligence
+First-Principles Attribution
+Probabilistic Identity Resolution
+Bayesian MMM
+Incrementality Testing
+Synthetic Lift Studio
+Live Event Attribution
+Real-Time Streaming Attribution
+Applied AI
+FrontDesk.ai
+AI research agents
+structured-output pipelines
+automated data pipelines
+AI publishing systems
+AI education infrastructure
+XXIII. Build → Measure → Break → Audit → Repair
+
+My preferred engineering loop is not:
+
+Build → Ship → Declare Victory
+
+It is:
+
+Build
+  ↓
+Measure
+  ↓
+Break
+  ↓
+Audit
+  ↓
+Repair
+  ↓
+Test
+  ↓
+Document
+  ↓
+Ship
+
+A system that survives deliberate attempts to break it is considerably more interesting than one that merely produces impressive demonstrations.
+
+That philosophy increasingly applies to both software and research.
+
+XXIV. What Comes Next
+
+The trajectory from 2025 to 2026 has been:
+
+2025
+
+Build Things
+     ↓
+Deploy Things
+     ↓
+Measure Things
+
+
+2026
+
+Discover
+     ↓
+Formalize
+     ↓
+Evaluate
+     ↓
+Verify
+     ↓
+Explain
+     ↓
+Operationalize
+
+The next objective is to close the loop.
+
+Not merely:
+
+AI that generates.
+
+Not merely:
+
+AI that retrieves.
+
+Not merely:
+
+AI that reasons.
+
+But:
+
+AI that can show its work, expose its uncertainty, survive verification, and become more useful because it knows where it might be wrong.
+<div align="center">
+Evidence-Governed Intelligence
+Causal Discovery · Generative AI · Agentic Systems · Formal Reasoning
+Research Engineering · Technical Education · Reproducible Systems
+<br>
+
+Build systems that can explain what they know.
+
+And prove what they claim.
 
 </div>
+Let's Connect
 
----
+Open to:
+
+Applied Generative AI / Agentic AI curriculum development
+Technical instruction
+AI systems architecture
+Research engineering
+Causal inference
+AI evaluation
+Research automation
+Technical consulting
+Architecture advising
+Collaborative research
+Capstone mentorship
+
+Portfolio:
+https://portfolio-hub-kappa-murex.vercel.app/
+
+GitHub:
+https://github.com/Michaelrobins938
+
+LinkedIn:
+https://www.linkedin.com/in/michael-forsythe-082255391/
+
+Author:
+https://www.amazon.com/author/mforsytherobinson
+
+ORCID:
+https://orcid.org/0009-0002-8487-759X
+
+Email:
+michael.robins938@gmail.com
+
+<div align="center">
+
+</div> ```
