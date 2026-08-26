@@ -1,10 +1,24 @@
 
- Michael Forsythe Robinson
-**AI Systems Architect & Marketing Science Engineer**
+```markdown
+# Michael Forsythe Robinson
+
+## AI Systems Architect · Research Engineer · Causal & Decision Engineer
 
 <img width="1376" height="768" alt="profile banner" src="https://github.com/user-attachments/assets/15b51b17-befe-4ea2-bdad-618d3757112e" />
 
-I build production-grade AI systems that generate measurable revenue and withstand epistemic scrutiny. Not prototypes. Not correlation theater. Real causal inference infrastructure at scale.
+I build **evidence-governed AI systems** for discovering, formalizing, evaluating, and operationalizing knowledge.
+
+My work sits at the intersection of:
+
+**AI Systems Architecture · Causal Inference · Knowledge Discovery · Research Automation · Formal Reasoning · Data Engineering · Decision Engineering**
+
+The goal is not simply to make models produce answers. The goal is to build systems that can determine:
+
+> **What is known, what is supported, what can be inferred, what remains uncertain, and what should happen next.**
+
+**My credibility is defined by working, open-source systems that realize this vision, not by claims about capabilities.**
+
+---
 
 <div align="center">
 
@@ -14,303 +28,758 @@ I build production-grade AI systems that generate measurable revenue and withsta
 
 ---
 
-## 2025 Portfolio and Highlights
+# The 2026 Portfolio: An Architecture for Evidence-Governed Intelligence
 
-View the presentation:  
-<img width="1376" height="768" alt="2025 portfolio overview" src="https://github.com/user-attachments/assets/139e7605-93dc-4427-ae9f-224806bb7351" />
+2025 was about **building and shipping systems**.
+2026 is about **building systems that can inspect, test, verify, and govern other systems**.
 
-<details>
- <summary><b>Quick Stats</b></summary>
+The current portfolio is organized around a common architecture that moves from knowledge discovery to operationalization:
 
-- **5+ years** building attribution & ML systems for Fortune 1000 and high-growth startups  
-- **214K+** qualified leads generated with 99.6% accuracy for geospatial AI systems  
-- **<100ms** real-time identity resolution at streaming scale (78% accuracy, GDPR/CCPA compliant)  
-- **30% ROI improvement** through treatment effect heterogeneity in behavioral segmentation  
-- **70% contact rate** (up from 30%) via attribution-informed outreach optimization  
-
-</details>
-
-<img width="1376" height="768" alt="systems collage" src="https://github.com/user-attachments/assets/f2d7f4a0-60ed-422c-9e87-03999049f5f9" />
-
----
-
-<img width="1376" height="768" alt="what I ship" src="https://github.com/user-attachments/assets/160422ab-c645-4ac2-9666-f93fdfbcd739" />
-
-## What I Ship
-
-<img width="1376" height="768" alt="attribution architecture" src="https://github.com/user-attachments/assets/bcb5632a-4e6c-4dce-bab8-f18d9e4dee76" />
-
-### Attribution Science & Causal Inference
-
-Most "attribution" is just weighted correlation with extra steps. I build systems grounded in **first-principles causal frameworks**:
-
-- **Markov chain state modeling** for temporal causality (not just last-touch heuristics)  
-- **Shapley value decomposition** for fair marginal contribution (game-theoretic fairness)  
-- **Bayesian uncertainty quantification** to bound epistemic vs. aleatoric error  
-- **Real-time probabilistic identity resolution** for streaming platforms (Kafka + Ray)  
-
-**Why this matters:** Resolves the fundamental gap between "correlation that shipped" and "causation that scales."
-
-<details>
- <summary><b>System Architecture Example</b></summary>
-
-```mermaid
-graph LR
-A[Event Stream<br/>Kafka] --> B[Feature Store<br/>Delta Lake]
-B --> C[Attribution Engine<br/>Markov + Shapley]
-C --> D[Bayesian UQ<br/>Confidence Bounds]
-D --> E[API Layer<br/><100ms p99]
-E --> F[Client Dashboard<br/>Real-time Insights]
-
-style A fill:#f9f,stroke:#333,stroke-width:2px
-style C fill:#bbf,stroke:#333,stroke-width:2px
-style D fill:#bfb,stroke:#333,stroke-width:2px
-style E fill:#fbb,stroke:#333,stroke-width:2px
+```text
+                 KNOWLEDGE
+                     │
+                     ▼
+              ┌──────────────┐
+              │   DISCOVER   │
+              │   OmniMind   │   → Latent connection discovery across corpora
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │   EXTRACT    │
+              │   Cangjie    │   → Recover formal, reusable mechanisms
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │  FORMALIZE   │
+              │   Cognitive  │   → Compile natural language into typed IR
+              │   Compiler   │
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │   EVALUATE   │
+              │     IEF      │   → Multi-agent, evidence-governed assessment
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │   VERIFY     │
+              │ Three-Gate   │   → Protocol for falsification & reproducibility
+              │   Protocol   │
+              └──────┬───────┘
+                     │
+                     ▼
+              ┌──────────────┐
+              │ OPERATIONALIZE│
+              │ Causal / Data │   → Deploy decisions under uncertainty
+              │    Systems    │
+              └──────────────┘
 ```
 
-**Key Components:**
-- **Kafka**: Ingests 10K+ events/sec from web, mobile, server-side  
-- **Delta Lake**: Versioned feature store with time-travel for reproducibility  
-- **Attribution Engine**: First-principles causal framework (not weighted correlation)  
-- **Bayesian UQ**: Quantifies model uncertainty, prevents overconfident predictions  
-- **API Layer**: Sub-100ms latency for real-time decisioning  
+This is the direction of the work:
 
-</details>
-
-### Production ML Infrastructure
-
-End-to-end data engineering for AI systems that don't explode in production:
-
-- **Event streaming pipelines:** Apache Kafka, Delta Lake, CDC (change data capture)  
-- **Distributed compute:** Ray, Dask, orchestration with Airflow/Prefect  
-- **Feature stores & versioning:** MLflow, DVC for reproducible experiments  
-- **Observability:** Prometheus, Grafana, custom drift detection (Kolmogorov-Smirnov tests)  
-
-**Recent case:** Live event attribution engine for WWE Raw on Netflix—second-screen correlation with <2s latency during live broadcasts.
-
-### Marketing Science & Growth Systems
-
-Behavioral profiling, audience segmentation, and revenue optimization:
-
-- **Psychographic priors** for context-aware attribution (not just demographics)  
-- **Treatment effect heterogeneity** to identify high-value segments (CATE estimation)  
-- **Multi-armed bandit** optimization for dynamic creative allocation  
-- **LLM-augmented research:** Automated product discovery (2.6 sale-ready products/day, zero manual work)  
+**Discovery → Extraction → Formalization → Evidence → Evaluation → Verification → Decision**
 
 ---
 
-## Case Studies
+# Flagship Systems
 
-| System | Problem | Solution | Outcome |
-|--------|---------|----------|---------|
-| **Geospatial Lead Gen Engine** | Insurance carrier needed qualified leads in underserved zip codes | ML classification on demographic + property data; automated outreach sequencing | **214,384 qualified leads** at 99.6% accuracy |
-| **Contact Rate Optimizer** | SaaS company had 30% connect rate, burning sales budget | Attribution-informed timing + messaging personalization via behavioral clustering | **30% → 70%** contact rate improvement |
-| **Product Research Automation** | E-commerce brand spent 8 hrs/day on manual product research | LLM-powered competitive analysis + trend detection; automated scoring | **2.6 products/day** flagged as sale-ready, **100%** automation |
-| **Streaming Identity Resolution** | Ad platform needed real-time user matching across devices (GDPR-compliant) | Probabilistic graph matching with Bayesian priors; <100ms p99 latency | **78% accuracy** at scale, fully GDPR/CCPA compliant |
+## 🔬 Invention Evaluation Framework (IEF)
 
----
+**Evidence-governed multi-agent intelligence for evaluating inventions, patents, technology, intellectual property, commercialization potential, and market opportunity.**
 
-## Core Stack
+The system decomposes complex technical claims into propositions, researches external evidence, maps evidence to claims, evaluates epistemic status, and generates auditable reports. It is designed to be a **reproducible, peer-reviewable assistant** for decision-makers.
 
-**Languages & Frameworks**  
-Python · TypeScript · SQL · Next.js
+**Core Architecture:**
 
-**Data & ML Infrastructure**  
-Apache Kafka · PostgreSQL · Delta Lake · Ray
+- **Evidence Controller**: Orchestrates the evaluation pipeline.
+- **E0–E9 Epistemic Gates**: A tiered system for grading evidence quality (e.g., E0: Assertion, E3: Corroborated, E9: Formal Proof).
+- **Proposition Decomposition**: Breaks down claims into verifiable, atomic units.
+- **Source Ontology & Deterministic Claim Mapping**: Ensures every piece of evidence is linked to a specific claim via a defined relationship (e.g., SUPPORTS, CONTRADICTS, IS_UNCERTAIN_FOR).
+- **Bounded Parallel DAG Execution**: Enables scalable, efficient processing of complex evaluations.
+- **Independent Review & Blind Fresh Verification**: A structural separation of concerns to prevent confirmation bias.
+- **Arbitration**: Resolves conflicts between independent evaluators.
+- **Evidence Provenance & Debt Tracking**: Explicitly identifies what evidence is needed vs. what is present.
+- **Report Integrity Validation & Reproducibility Artifacts**: Ensures the final report is a true and reproducible snapshot of the evaluation.
+- **Mutation Testing & Executable Acceptance Contracts**: Tests the system's resilience and adherence to requirements.
 
-**Specialized**  
-Bayesian Statistics · Causal Inference (DoWhy, EconML) · LLMs (Claude, GPT-4) · Make.com · Shapley Values · Markov Chains
+**The Architecture Explicitly Separates:**
 
----
+```text
+AUTOPROMPT                  → The claim to be evaluated.
+    ↓
+EXECUTION                   → The system's initial analysis.
+    ↓
+EVIDENCE CONTROLLER         → What the evidence may establish.
+    ↓
+INDEPENDENT REVIEW          → A fresh, blind assessment.
+    ↓
+BLIND FRESH VERIFICATION    → A second, independent verification.
+    ↓
+ARBITRATION                 → Final resolution of conflicting assessments.
+    ↓
+FINAL EPISTEMIC STATUS      → An auditable, evidence-grounded conclusion.
+```
 
-## Selected Projects
+**Current Validation:**
+The system has been successfully exercised and validated through a pipeline that includes:
 
-**Pinned repositories** below showcase production-grade systems:
+- `REAL_AUTOPROMPT`: Real-world, complex prompts.
+- `FULL_CONTROLLER`: End-to-end execution of the evidence controller.
+- `INDEPENDENT` & `BLIND_FRESH`: Independent review lanes.
+- `9` DAG lanes, `5/5` propositions reviewed, `7` external sources, `3` reproducible runs, and **214 automated tests**.
 
-- **first-principles-attribution:** Causal framework resolving correlation vs. causation with Markov/Shapley/Bayesian UQ  
-- **probabilistic-identity-resolution:** Real-time streaming identity graph for multi-device attribution  
-- **behavioral-profiling-attribution:** Context-aware attribution with psychographic priors (30% ROI lift)  
-- **live-event-attribution-wwe-raw:** Second-screen correlation engine for sports advertising  
-- **portfolio-hub:** Next.js command center showcasing 10+ production attribution systems  
-
----
-
-## Currently Building
-
-- **Multi-touch attribution whitepaper (v2.0):** Formalizing the epistemic gap in correlation-based attribution models  
-- **Streaming feature store:** Real-time feature computation for sub-100ms inference pipelines  
-- **Open-source attribution library:** First-principles toolkit for marketing science teams  
-
-<img width="1376" height="768" alt="currently building blueprint" src="https://github.com/user-attachments/assets/29ce67b3-2aed-4b1d-a152-43c967f2f598" />
-
----
-
-## The 2025 Blueprint: A Manifesto on Creation, Code, and Commerce
-
-### Introduction: The Year of the Foundation
-
-The year 2025 was not a collection of disparate accomplishments but the deliberate and intense construction of a foundation—an empire waiting to launch. It was a year dedicated to a singular philosophy: mastering the synthesis of three distinct yet deeply interconnected domains. The first was the rigorous, logical world of artificial intelligence, where systems are architected to solve complex problems. The second was the boundless realm of creative expression, where stories are woven, worlds are built, and art is brought to life. The third was the pragmatic discipline of entrepreneurial systems, where ideas are transformed into market-ready products and sustainable ventures. This document serves as a manifesto, a codification of the principles, evidence, and future vision derived from this transformative year of creation.
+**Status:** Operational · Validation in progress · **Designed to downgrade claims when evidence is insufficient rather than manufacture certainty.**
 
 ---
 
-## Core Philosophy: The Principles of a Modern Polymath
+## 🧠 OmniMind: Research Intelligence & Latent Knowledge Discovery
 
-The massive output of 2025 was not accidental; it was the direct result of a core set of repeatable principles. These principles form the operating system for a new kind of creator—one who fluidly merges technical mastery with creative intuition, using each to inform and elevate the other. They are the intellectual framework that enabled the simultaneous development of production-grade software, published novels, and scalable business ventures.
+OmniMind is a research intelligence architecture designed to move beyond conventional document retrieval.
 
-### Principle I: The Symbiosis of Art and Algorithm
+**Traditional RAG asks:** *"Which documents are similar to this question?"*
+**OmniMind asks:** *"What meaningful connections exist across this corpus that nobody explicitly asked for?"*
 
-The guiding philosophy is that creative and technical pursuits are not opposing forces but symbiotic partners. Creative endeavors, such as the drafting of the 60,000-word manuscript *mentally ill but hot* or the world-building for *Aethoria: Convergence*, inform logical problem-solving by cultivating empathy and non-linear thinking. Conversely, technical skills provide new mediums for artistic expression, as seen in the creation of over 966 individual art pieces and interactive digital tools. This feedback loop, where algorithms become a canvas and art becomes a system, is not merely a process but a strategic advantage that unlocks novel solutions unavailable to the single-domain specialist.
+The system combines:
 
-<img width="1376" height="768" alt="core philosophy slide" src="https://github.com/user-attachments/assets/98c98b16-543c-4373-9833-0487ca50d1b2" />
+- Semantic vector retrieval (e.g., SBERT, OpenAI embeddings)
+- BM25 lexical retrieval for exact matching
+- Reciprocal-rank fusion for robust initial candidate sets
+- Knowledge graphs (entities, relations, causal triples, equation fingerprints)
+- Graph traversal and structural analogy detection
+- **Swanson-style B-term discovery**: Connecting disparate concepts via common intermediates (e.g., discovering a link between `fish oil` and `Raynaud's syndrome` via `platelet aggregation`).
+- Epistemic reconstruction and adversarial falsification
+- Source provenance and OCR/data-quality separation
+- Persistent graph synchronization and autonomous ingestion
 
-### Principle II: AI as the Universal Amplifier
+**The Core Idea:**
 
-An "AI-First Development" approach is central to this entire body of work. Artificial intelligence is not viewed as a mere tool but as a collaborative partner that fundamentally amplifies productivity and creative potential. This principle is evidenced by the "500 AI Agents Platform," an ecosystem of 52 specialized agents powering 11 live SaaS products, and the mastery of over 15 distinct AI platforms, from Anthropic's Claude to NVIDIA's NitroGen foundation models. This deep integration reflects the core belief that AI enables a "10x developer," creating a competitive advantage in velocity and scale that is impossible to achieve through traditional means.
+```text
+Documents → Semantic Structure → Knowledge Graph
+                                     │
+    ┌────────────────────────────────┼────────────────────────────────┐
+    ▼                                ▼                                ▼
+Cross-Domain Search       Structural Analogy Detection      Swanson-Style Discovery
+    │                                │                                │
+    └────────────────────────────────┼────────────────────────────────┘
+                                     ▼
+                            Latent Connections
+                                     │
+                                     ▼
+                            Hypotheses / Propositions
+                                     │
+                                     ▼
+                            Falsification & Evidence
+                                     │
+                                     ▼
+                            Knowledge & Insights
+```
 
-### Principle III: Full-Stack Completeness and Shipping What You Start
+**Principle:**
 
-There is a stark contrast between building prototypes and shipping production-ready systems. This principle embodies a relentless commitment to the latter, a "from idea to production" mindset that prioritizes tangible results. This is proven by the overhaul of the LitRPG Unlimited web platform, which involved a full migration to TypeScript and complex Stripe integration, the 11 live SaaS products, and the publication of the novel *Aethoria: Convergence*. This focus on completion is the mechanism that transforms intellectual assets into demonstrable, market-ready value.
-
-<img width="1376" height="768" alt="full stack shipping slide" src="https://github.com/user-attachments/assets/700dfd7b-2321-4252-8dbd-1c17fe1c5d15" />
-
-### Principle IV: Data Sovereignty as a Moral Imperative
-
-Taking ownership of one's digital life is not just a technical exercise but a moral one. This principle was put into practice through the methodical archiving and analysis of over 25 GB of personal data from platforms like Google and Facebook. The Attribution Mind Map project exemplifies this philosophy by transforming a decade of passive digital footprints into an interactive map of personal behavior. Asserting this control is more than an act of self-reflection; it is a foundational skill for building user-centric, ethical products in a data-driven world.
-
-<img width="1376" height="768" alt="data sovereignty slide" src="https://github.com/user-attachments/assets/182afa9f-bf5a-4d65-bc7e-2d6d609e87b2"/>
-
-### Principle V: Ethical Engineering in Practice
-
-The most powerful technology demands the highest degree of ethical consideration. This principle is most clearly manifested in the Lightwell JAMI-3 project, an AI therapy application whose architecture is founded on evidence-based principles of clinical psychology and incorporates built-in ethical safeguards. This project serves as a testament to the belief that technology, particularly AI applied to sensitive domains, must be developed with a profound sense of responsibility. This commitment is not an obstacle to innovation but a prerequisite for building technology with lasting, positive human impact.
-
-These five principles are not abstract ideals; they are the bedrock upon which a vast and diverse portfolio of tangible work was built.
-
----
-
-## The Pillars of Creation: Evidence from the Forge
-
-The philosophy outlined above is validated by the tangible projects forged in 2025. This body of work is not a scattered list of achievements but a set of three deliberate, interconnected pillars that form the foundation of a modern creative empire. Engineered Intelligence serves as the system's core reactor; Woven Worlds are the rich, narrative universes powered by that core; and Commercial Ecosystems are the starships that carry these creations to the market.
-
-### Pillar I: Engineering Intelligence
-
-This pillar represents the capacity to build sophisticated AI and data systems that solve real-world problems. It is the technical engine driving the entire foundation.
-
-#### The SaaS Ecosystem: 11 live products and 52 AI agents
-
-This monumental platform, the "500 AI Agents Platform," comprises production-ready products like ContentFlow AI, PipelineAI, and LegalFlow AI, each powered by specialized agents and ready for market launch.
-
-#### Actionable Data Products: 214,384 enriched leads with 99.6% match rate
-
-The DFW Roofing Intelligence System turns raw public data into a high-value commercial asset. By integrating NOAA storm data with property records, the system demonstrates a proven 30x return on investment for clients.
-
-<img width="1376" height="768" alt="dfw roofing intelligence slide" src="https://github.com/user-attachments/assets/3f4270cd-ebf0-4815-ab56-c3abca576142" />
-
-#### Personalized AI: JARVIS, a production-ready personal AI assistant
-
-Standing apart from mainstream alternatives, JARVIS runs locally to ensure privacy, possesses persistent memory to learn from interactions, and operates seamlessly cross-platform, making it a truly personalized intelligence layer.
-
-#### PhD-Level Data Science: 11 years of temporal behavioral data
-
-The Attribution Mind Map employs advanced Markov-Shapley models and interactive 3D visualizations to map human behavior, showcasing deep mastery of complex data science and its application to personal insight.
-
-<img width="1376" height="768" alt="attribution mind map slide" src="https://github.com/user-attachments/assets/ca470629-fbdd-43c3-91cf-fd4785febe18" />
-
-### Pillar II: Weaving Worlds
-
-This pillar is the soul of the foundation, demonstrating prolific output in creative writing, art, and interactive entertainment. It is the ability to not only conceive of entire universes but to build and commercialize them.
-
-#### The Published Author
-
-A milestone of two full-length manuscripts completed and prepared for publication. *Aethoria: Convergence* was successfully published on the Amazon Kindle Store, while *mentally ill but hot*, a 60,000+ word manuscript, is publication-ready—a testament to sustained creative discipline.
-
-#### The Art Factory
-
-A massive output of 966+ individual pieces at an average of 2.6 per day. This body of work includes the 881-piece "Nightmare" collection, 27 commercial t-shirt designs, and 16 interactive QR code tools, representing a relentless and consistent creative engine.
-
-#### Automated Commerce
-
-A fully automated Print-on-Demand Shopify store. The artistic and technical pillars merge here, using Python to programmatically transform over 900 art pieces into a scalable e-commerce business, turning creative output into a self-sustaining commercial engine.
-
-#### Interactive Narrative
-
-An AI-powered storytelling platform where the "AI Becomes Your Dungeon Master." The Aethoria Console fuses narrative design, RPG mechanics, and cutting-edge AI to create a unique transmedia experience that extends the universe of the Aethoria novel.
-
-### Pillar III: Building Ecosystems
-
-This pillar provides the scaffolding that connects the technical and creative work to the real world through market-ready entrepreneurial ventures.
-
-#### Local Market Domination
-
-The launch of a Fort Worth-based agency, Forsythe Publishing & Marketing. This venture uses AI voice agents and high-conversion marketing to solve the critical problem of lead follow-up for home service businesses, turning a single missed call into a potential $2,000–$50,000 job.
-
-#### Full-Stack Product Delivery
-
-A complete overhaul of the LitRPG Unlimited commercial web platform. The project included a professional-grade technical migration to TypeScript and the full integration of the Stripe payment system, demonstrating the ability to manage the entire lifecycle of a monetizable product.
-
-These pillars are not independent columns but a fully integrated architecture. Engineered Intelligence provides the tools to build and scale the Woven Worlds, while the Commercial Ecosystems create the channels to bring those worlds to market, turning creative vision into tangible enterprise.
+> Vector retrieval is infrastructure. Connection discovery is the product.
 
 ---
 
-## The Metamorphosis: A Reflection on Process and Growth
+## ⚙️ Cognitive Compiler: From Natural Language to Generative Models
 
-The true accomplishment of 2025 was not merely the sum of its projects, but the personal and professional transformation required to produce them. The "what" is impressive, but the "how" is transformative. This was a year defined by a fundamental shift in mindset, critical lessons learned in the arena, and a relentless velocity of learning.
+The Cognitive Compiler treats knowledge extraction as a **compilation problem** rather than a summarization problem.
 
-### The Shift from Building to Mastering
+It transforms source material into a **Typed Intermediate Representation (TIR)** that describes:
 
-The year’s work signifies a qualitative leap from simply "building" things to truly "mastering" the craft of creation. This is evidenced not just by the volume of output, but by its depth and quality. The growth extended from mastering over 15 distinct AI platforms to understanding the nuances of low-level hardware programming. This shift reflects a deeper comprehension of system architecture, the ethical responsibilities of AI development, and the uncompromising standards of production-grade code quality that separate amateur projects from professional systems.
+- Entities and their attributes
+- Relationships and their cardinalities
+- Mechanisms and processes (e.g., state transitions, transformations)
+- Constraints, invariants, and pre/post-conditions
+- Generative machinery (e.g., how a system produces outputs from inputs)
+- Causal structure and directed dependencies
+- Evidence (claims, sources, uncertainty)
+- Epistemic status (provenance, confidence)
 
-### Lessons from the Arena
+**Architecture:**
 
-- **TypeScript prevents countless bugs.** Large codebase migrations are painful, but the long-term stability and velocity gains are worth it.  
-- **Iteration beats perfection.** Waiting for a perfect plan is a form of procrastination. Shipping and iterating on real feedback is the dominant strategy.  
-- **Data ownership is self-awareness.** Archiving and analyzing personal data is both a technical exercise and an act of introspection that surfaces patterns, biases, and growth.
+```text
+Natural Language
+      ↓
+Ontology Extraction (e.g., using LLMs, custom parsers)
+      ↓
+Generative Machinery Extraction (identifying operations, functions)
+      ↓
+Typed Intermediate Representation (TIR)
+      ↓
+Validation / Type Checking (ensuring structural coherence)
+      ↓
+Evidence Graph (mapping TIR elements to source evidence)
+      ↓
+Blind Verification (checking for unsupported elements)
+      ↓
+Model Composition (e.g., generating code, equations, or simulation models)
+      ↓
+Executable / Structured Output
+```
 
-### The Compound Effect of Relentless Learning
-
-A key driver of the year's success was an exceptional "learning velocity." The ability to rapidly adopt and implement bleeding-edge technologies—such as Next.js 15, React 19, and NVIDIA's foundation models—without formal training is a critical advantage. Skills acquired in one domain, like data visualization, accelerated progress in another, like building interactive gaming UIs. Over time, this created a powerful compounding effect on innovation.
-
-This period of intense growth and reflection has forged not just a portfolio of projects, but a clear and ambitious mission for the future.
+The goal is to preserve **how a system works**, not merely what a source says. This is a foundational step for moving from literature review to reproducible analysis.
 
 ---
 
-## The Mission: Scale the Impact
+## 🧩 Cangjie Deconstructor: Generative Architecture Extraction
 
-If 2025 was about building the foundation, then 2026 is about scaling the impact. The groundwork has been laid, the skills have been proven, and the systems are in place. The mission for the coming year is to move from creation to deployment—to launch the products, publish the books, generate revenue, and begin building a lasting legacy at the intersection of artificial intelligence, psychology, and creative expression. The principles have been forged, the evidence has been built, and the creator has been transformed. All systems are operational.
+Cangjie is a structured extraction system for recovering **reusable generative mechanisms** from complex technical and scientific material.
 
-"That's when we scale to the moon."
+Rather than treating a document as a bag of facts, the system attempts to recover:
+
+- Primitives (e.g., base variables, functions)
+- Operators and transformations
+- Constraints and boundary conditions
+- State transitions and state machines
+- Causal machinery (e.g., feedback loops, DAGs)
+- Reusable mechanisms (e.g., a specific algorithm, a metabolic pathway)
+
+**The extracted structures become inputs for downstream reasoning and model construction.**
+
+This creates a bridge between:
+
+**Literature → Formal Structure → Generative Model**
 
 ---
 
-## Let's Connect
+## 🛡️ Three-Gate Research Protocol
 
-**Open to:**  
-Consulting engagements (attribution systems, ML infrastructure, data science strategy)  
-Speaking & workshops (marketing science, causal inference, production ML)  
-Advising high-growth startups on data/AI architecture  
+A research operating system for preventing unsupported conclusions and ensuring reproducibility.
 
-**Reach me:**  
-[LinkedIn](https://www.linkedin.com/in/michael-forsythe-082255391/) · [Portfolio](https://portfolio-hub-kappa-murex.vercel.app/) · Email: `Forsythepublishing@gmail.com`
+```text
+GENERATE (Propositions, Hypotheses, Claims)
+   ↓
+GATE (Initial plausibility & novelty check)
+   ↓
+VERIFY (Search for supporting, contradicting, and supporting evidence)
+   ↓
+SEARCH DROPPED THREADS (Identify evidence or counter-arguments not considered)
+   ↓
+GRADE (Evidence quality & confidence assessment)
+   ↓
+WRITE (Produce a report with explicit provenance & uncertainty)
+```
+
+**The protocol emphasizes:**
+
+- Novelty / Silence detection (has this been proposed before?)
+- Reproducibility (can the research be repeated?)
+- Mechanism (is there a plausible causal or mechanistic explanation?)
+- Provenance (can the evidence be traced back to its source?)
+- Falsifiability (what would disprove this hypothesis?)
+- Evidence Grading (using a defined scale like E0-E9)
+- Uncertainty Quantification (confidence intervals, probabilities)
+- **Anti-loop detection** (preventing circular reasoning)
+- **Explicit rejection of unsupported claims** (the "null" is a valid and important output)
+
+**The objective is not to maximize the number of hypotheses produced. It is to maximize the number of useful hypotheses that survive contact with evidence.**
 
 ---
 
-## GitHub Activity
+# Causal & Decision Engineering
+
+Before building research-intelligence systems, I spent years building production data, attribution, and marketing-science infrastructure. This work provides a critical foundation for **decision-making under uncertainty**, a core theme of the 2026 portfolio.
+
+I build systems to answer the question:
+
+> **What actually caused the outcome?**
+
+rather than:
+
+> **What happened immediately before it?**
+
+This involves:
+
+- **Markov state modeling:** For modeling sequential decision processes.
+- **Shapley value decomposition:** For fairly attributing outcomes to multiple factors.
+- **Bayesian uncertainty quantification:** For distinguishing signal from noise.
+- **Treatment-effect estimation (e.g., CausalImpact, Difference-in-Differences):** For measuring the true impact of interventions.
+- **Behavioral segmentation:** For understanding heterogeneous treatment effects.
+- **Probabilistic identity resolution:** For stitching together user journeys across devices.
+- **Incrementality analysis:** For determining the true effect of an ad or campaign.
+
+### Example Causal Query
+
+> "We increased our ad spend on Channel X by 20%. Was the resulting 15% lift in sales a causal effect of the ad spend, or due to a seasonal trend?"
+
+**Approach:** A system would ingest sales data, ad spend data, and competitor data. It would then use Bayesian structural time-series models to predict what sales *would have been* without the ad spend increase. The difference between the prediction and actual sales is the **incremental lift**. The system quantifies the uncertainty around this estimate, providing a probability that the lift was >0.
+
+**Sample Computation:**
+
+```text
+Predicted Sales (without increase): ~1.0M
+Actual Sales (with increase):       ~1.15M
+Incremental Lift:                   ~150K (95% CI: [100K, 210K])
+Probability of Positive Lift:       99.8%
+```
+
+This is a concrete example of the systems I build to make decisions, not just analyze data.
+
+### Example Architecture
+
+```text
+Event Streams (e.g., clicks, impressions, conversions)
+     ↓
+Identity Resolution (probabilistic graph matching)
+     ↓
+Feature Engineering (e.g., creating cohorts, lagged variables)
+     ↓
+Causal / Attribution Engine (e.g., CausalImpact, Shapley, Markov models)
+     ↓
+Bayesian Uncertainty (e.g., MCMC, variational inference)
+     ↓
+Decision API (for real-time optimization or reporting)
+     ↓
+Real-Time Optimization (e.g., budget allocation, bidding)
+```
+
+---
+
+# Production Data & AI Infrastructure
+
+I build systems across the complete lifecycle:
+
+```text
+Data Ingestion (e.g., Kafka, webhooks, APIs)
+      ↓
+Streaming (e.g., Flink, Kafka Streams)
+      ↓
+Feature Engineering (e.g., batch & real-time features)
+      ↓
+Modeling (e.g., scikit-learn, PyTorch, Bayesian models)
+      ↓
+Evaluation (e.g., cross-validation, A/B testing)
+      ↓
+Inference (e.g., batch scoring, real-time API)
+      ↓
+Observability (e.g., logging, monitoring, alerts)
+      ↓
+Decision Systems (e.g., recommending, optimizing, alerting)
+```
+
+### Core Technologies
+
+- **Languages:** Python · TypeScript · SQL
+- **Application:** Next.js · React · Node.js
+- **Data:** PostgreSQL · SQLite · Delta Lake · Qdrant
+- **Distributed Systems:** Kafka · Ray · Dask
+- **ML / Statistics:** Bayesian Statistics · Causal Inference · Shapley Values · Markov Models · Experimentation
+- **AI:** LLMs · RAG · Agents · Structured Generation · Knowledge Graphs
+- **Infrastructure:** Vercel · Docker · CI/CD · GitHub Actions
+
+---
+
+# Selected Production Systems
+
+| System                            | Problem                                                         | Approach                                                                | Result/Status                          |
+| --------------------------------- | --------------------------------------------------------------- | ----------------------------------------------------------------------- | -------------------------------------- |
+| **Geospatial Lead Intelligence**  | Identify qualified opportunities from large geographic datasets | ML classification + property/geospatial enrichment + automated outreach | **214,384 qualified leads**            |
+| **Streaming Identity Resolution** | Match users across devices and event streams                    | Probabilistic graph matching + Bayesian priors                          | **<100ms target latency**              |
+| **Contact Rate Optimization**     | Improve inefficient outbound sales engagement                   | Behavioral clustering + attribution-informed timing                     | **30% → 70% contact rate**             |
+| **Product Research Automation**   | Eliminate repetitive e-commerce research                        | LLM-powered discovery + competitive analysis + scoring                  | **2.6 sale-ready products/day**        |
+| **Live Event Attribution**        | Measure advertising behavior around live broadcasts             | Streaming event processing + second-screen analysis                     | **<2s event processing target**        |
+
+> Metrics are presented with their stated scope and should be interpreted according to the underlying project documentation and evaluation methodology.
+
+---
+
+# Research Engineering: Core Principles
+
+My recent work increasingly focuses on a common problem:
+
+## How do we build AI systems that know the difference between an answer and evidence for an answer?
+
+This leads to several recurring design principles, each applied across my systems (e.g., IEF uses `evidence debt`, OmniMind uses `epistemic reconstruction`, Three-Gate uses `falsifiability`).
+
+### 1. Evidence is First-Class Data
+
+Claims should have a complete and auditable chain:
+
+```text
+Claim
+ ↓
+Evidence
+ ↓
+Source (with citation & context)
+ ↓
+Provenance (when was it found, by whom)
+ ↓
+Inference (how does the source support the claim)
+ ↓
+Uncertainty (confidence in the mapping)
+```
+
+### 2. Uncertainty Should Survive the Pipeline
+
+A system should not silently convert:
+
+```text
+UNKNOWN (Insufficient evidence)
+```
+
+into:
+
+```text
+PROBABLY TRUE
+```
+
+and eventually:
+
+```text
+TRUE
+
+```
+
+This is a core principle of the **IEF**, which is designed to downgrade claims rather than manufacture certainty.
+
+### 3. Verification Should Be Structurally Independent
+
+A second pass should not merely repeat the first pass. The architecture should create opportunities for:
+
+- Fresh retrieval (e.g., using a different search engine or corpus)
+- Independent evaluation (e.g., by a different model or human reviewer)
+- Contradiction detection (e.g., identifying evidence that conflicts with the claim)
+- Arbitration (e.g., resolving conflicts between multiple reviewers)
+- Regression testing (e.g., ensuring the system doesn't forget past conclusions)
+
+### 4. Reproducibility is an Engineering Feature
+
+Research claims should be accompanied by:
+
+- Deterministic mappings (claim ↔ evidence)
+- Versioned artifacts (code, models, datasets)
+- Executable tests (ensuring the system still operates as expected)
+- Provenance (tracing the origin of every decision)
+- Reproducible runs (documented commands and environment)
+- Explicit limitations (what the system cannot do)
+
+### 5. Systems Should Be Allowed to Say "Insufficient Evidence"
+
+A rejection is not necessarily a failure. Sometimes it is the correct output.
+
+The **Three-Gate Protocol** is specifically designed to reject unsupported claims, and the **IEF** will not fabricate evidence. The ability to provide a valid "null" result is a critical feature of an honest AI system.
+
+---
+
+# Engineering Philosophy
+
+## Build → Measure → Break → Audit → Repair
+
+The most valuable engineering discoveries often come from finding out that something we believed was working **wasn't actually working the way we thought**.
+
+That changes how I build systems. When an assumption fails, I follow a rigorous cycle:
+
+```text
+Claim (about system behavior)
+  ↓
+Test (explicitly designed to falsify it)
+  ↓
+Failure (when the test contradicts the claim)
+  ↓
+Root Cause Analysis (Why did the failure happen?)
+  ↓
+Correction (Fix the system or update understanding)
+  ↓
+Regression Test (Ensure the failure doesn't reappear)
+  ↓
+Documented Limitation (Update the system's known boundaries)
+```
+
+**I consider that a successful engineering cycle.** This is especially important for AI systems, where plausible output can conceal structural failure.
+
+**Synthesis:** This is a core philosophy that guides the evolution of my work: a willingness to build, a drive to automate, and a commitment to honesty about what is and isn't broken.
+
+---
+
+# 2025: Foundation
+
+2025 was the year of high-velocity construction across AI, data engineering, creative systems, and entrepreneurship.
+
+**Highlights included:**
+
+- **Production Attribution Systems**
+- **AI-Assisted SaaS Products**
+- **Streaming Data Infrastructure**
+- **Identity Resolution Systems**
+- **Geospatial Intelligence**
+- **Automated Product Research**
+- **Publishing and Creative Platforms**
+- **E-Commerce Automation**
+- **AI-Assisted Narrative Systems**
+- **Local AI Tooling**
+- **Marketing Automation**
+- **Large-Scale Creative Production**
+
+**The most important outcome was not any individual project. It was learning how to move repeatedly from:**
+
+**idea → architecture → implementation → deployment → iteration**
+
+...and the beginning of a shift from "just building" to "building systems that can assess what has been built."
+
+---
+
+# Creative Systems
+
+Technical systems are only one side of the portfolio. I also build at the intersection of AI, narrative, publishing, and interactive media, applying the same systems-thinking and automation principles to creative work.
+
+### Publishing
+
+Author of **The AI Builder's Launchpad**, a guide for product managers and engineers looking to build AI products, and creator of the **Aethoria** universe and related interactive narrative systems.
+
+### Creative Technology
+
+Projects include:
+
+- AI-assisted storytelling (e.g., generating plot points, character arcs)
+- Interactive RPG systems (e.g., AI-driven narratives)
+- Generative art workflows
+- Publishing automation (e.g., formatting, metadata generation)
+- AI Dungeon Master systems
+- Digital world-building tools
+
+The underlying principle is the same:
+
+> **Treat creative work as a system that can be designed, measured, iterated, and shipped.**
+
+---
+
+# Current Research Direction
+
+The next stage of the work is converging around a broader architecture:
+
+## Evidence-Governed Intelligence
+
+The objective is to connect the full stack:
+
+```text
+RESEARCH (Question Formulation)
+   │
+   ▼
+DISCOVERY (OmniMind: Finding latent connections)
+   │
+   ▼
+STRUCTURAL EXTRACTION (Cangjie: Recovering formal mechanisms)
+   │
+   ▼
+FORMAL REPRESENTATION (Cognitive Compiler: Creating TIRs)
+   │
+   ▼
+EVIDENCE EVALUATION (IEF: Assessing claims against evidence)
+   │
+   ▼
+FALSIFICATION (Three-Gate Protocol: Testing and rejecting claims)
+   │
+   ▼
+DECISION SUPPORT (Causal/Data Systems: Acting on what is known)
+```
+
+This means building AI systems that do more than retrieve information. They should be able to:
+
+- Discover relationships and latent connections
+- Expose hidden assumptions and biases
+- Represent mechanisms, not just facts
+- Track evidence and its provenance
+- Quantify and propagate uncertainty
+- Detect contradictions and inconsistencies
+- Test and falsify claims through experimentation
+- Preserve provenance for auditing
+- Identify knowledge gaps and recommend next steps
+- Produce auditable, reproducible decisions
+
+---
+
+# What I'm Building Now
+
+### 🔬 Evidence-Governed Evaluation
+
+- Expanding the **Invention Evaluation Framework** into a reproducible research and decision-support platform.
+- Building a formal proof-of-concept for multi-agent arbitration.
+- Developing a library of **Evidence Controllers** for different domains (e.g., medical, engineering, financial).
+
+### 🧠 Research Intelligence
+
+- Continuing development of **OmniMind** for cross-domain discovery and latent-information extraction.
+- Integrating causal reasoning directly into the graph traversal to identify potential causal links.
+- Building a user interface for exploring discovered connections.
+
+### ⚙️ Generative Model Compilation
+
+- Developing the **Cognitive Compiler** and **Cangjie** extraction architecture.
+- Creating a schema for the **Typed Intermediate Representation (TIR)** to enable formal verification.
+- Building a library of **mechanism templates** to speed up extraction.
+
+### 📊 Causal Intelligence
+
+- Continuing development of causal attribution, experimentation, incrementality, and behavioral decision systems.
+- Building reusable, modular components for A/B testing and causal inference.
+- Creating a real-time causal optimization engine for marketing and product growth.
+
+### 🧪 Reproducible Research Infrastructure
+
+- Building evaluation protocols, benchmarks, provenance systems, and verification layers that make AI-assisted research auditable.
+- Developing a framework for "claims as code" to formalize and test research assertions.
+
+---
+
+# Selected Projects
+
+### Research & Intelligence
+
+- **Invention Evaluation Framework (IEF):** Evidence-governed evaluation of inventions, patents, technologies, and commercialization claims.
+- **OmniMind Research Tool:** Cross-domain knowledge discovery and latent connection detection.
+- **Cognitive Compiler:** Natural-language → structured generative model compilation.
+- **Cangjie Deconstructor:** Generative architecture and mechanism extraction.
+- **Three-Gate Research Protocol Engine:** Evidence-gated research and falsification workflow.
+
+### Causal / Decision Systems
+
+- **First-Principles Attribution**
+- **Probabilistic Identity Resolution**
+- **Behavioral Profiling Attribution**
+- **Incrementality / Experimentation Systems**
+- **Bayesian Marketing Mix Modeling**
+- **Real-Time Attribution Infrastructure**
+- **Geospatial Intelligence Systems**
+
+### Product / Platform
+
+- **Portfolio Hub**: [https://portfolio-hub-kappa-murex.vercel.app/](https://portfolio-hub-kappa-murex.vercel.app/)
+- **FrontDesk.ai**: AI-powered customer service/productivity tool.
+- **LitRPG Unlimited**: Interactive fiction and narrative platform.
+- AI-powered publishing and commerce systems.
+
+### Foundations
+
+- **The AI Builder's Launchpad**: A book on building AI products.
+- **Aethoria Universe**: A complex, multi-work narrative and game setting.
+
+---
+
+# Open Source & Research
+
+I publish technical research, system architectures, experiments, and reproducibility artifacts across GitHub and academic/research repositories.
+
+**Research interests include:**
+
+- Causal inference
+- AI systems architecture
+- Knowledge discovery and formal reasoning
+- Epistemic reasoning and uncertainty quantification
+- Research automation
+- Formal systems and program synthesis
+- Generative models and mechanism extraction
+- Anomaly detection and root cause analysis
+- Marketing science and attribution
+- Experimentation and incrementality
+- Data engineering and streaming systems
+- AI safety and evaluation
+
+---
+
+# A Note on Claims
+
+I increasingly apply the same standard to my portfolio that I apply to the systems I build:
+
+**A claim should be no stronger than its evidence.**
+
+Where a result is measured, I try to identify:
+
+- What was measured
+- How it was measured
+- Against what benchmark
+- Under what assumptions
+- Whether it is reproducible
+- What remains uncertain
+
+Where validation is incomplete, I label it as incomplete.
+
+That distinction matters.
+
+---
+
+# Let's Build the Tools for Evidence-Based Decision Making
+
+I'm interested in technically difficult problems where AI, data, causal reasoning, and systems engineering intersect.
+
+### Open to
+
+- AI systems architecture and design
+- Research engineering and automation
+- Causal inference / marketing science
+- Data and ML infrastructure
+- AI evaluation and validation
+- Research automation and tooling
+- Technical consulting and architecture advising
+- High-growth startup systems
+- Collaborative research
+
+### Connect
+
+**LinkedIn:** [https://www.linkedin.com/in/michael-forsythe-082255391/](https://www.linkedin.com/in/michael-forsythe-082255391/)
+**Portfolio:** [https://portfolio-hub-kappa-murex.vercel.app/](https://portfolio-hub-kappa-murex.vercel.app/)
+**GitHub:** [https://github.com/Michaelrobins938](https://github.com/Michaelrobins938)
+**Email:** `Forsythepublishing@gmail.com`
+**Author:** [https://www.amazon.com/author/mforsytherobinson](https://www.amazon.com/author/mforsytherobinson)
+**ORCID:** [https://orcid.org/0009-0002-8487-759X](https://orcid.org/0009-0002-8487-759X)
+
+---
 
 <div align="center">
 
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Michaelrobins938&theme=radical&hide_border=true)
+### Build systems that can explain what they know.
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Michaelrobins938&layout=compact&theme=radical&hide_border=true)
+### And prove what they claim.
 
 </div>
 
 ---
 
-## Achievements & Recognition
+<div align="center">
 
-- **Make Foundation Certified** — Advanced automation & integration specialist  
-- **Open-source contributor** — First-principles attribution framework (Markov+Shapley+Bayesian UQ)  
-- **Fortune 1000 experience** — Built secure systems for $5.4B market cap finance department  
-- **0→1 builder** — Scaled online community from 0 to 1,200 active members in 4 months  
+![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=Michaelrobins938\&theme=radical\&hide_border=true)
+
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Michaelrobins938\&layout=compact\&theme=radical\&hide_border=true)
+
+</div>
+```
 
 ---
+
+### Optional Additions for Further Enhancement
+
+If you want to add a bit more structure, you could include a concise summary table at the top of the "Flagship Systems" section and/or a technology badges header.
+
+**1. Flagship Systems Summary Table**
+
+```markdown
+| System | Purpose | Core Technique | Current Status |
+| :--- | :--- | :--- | :--- |
+| **Invention Evaluation Framework (IEF)** | Auditable, evidence-governed evaluation of claims | Multi-agent DAG with E0-E9 gates | Operational, Validation in Progress |
+| **OmniMind** | Latent knowledge discovery across corpora | Knowledge Graph + Swanson-style Discovery | Active Development |
+| **Cognitive Compiler** | Natural language to formal, generative models | Typed Intermediate Representation (TIR) | Active Development |
+| **Cangjie Deconstructor** | Recover reusable mechanisms from text | Structural Extraction & Pattern Matching | Active Development |
+| **Three-Gate Protocol** | Falsification & reproducibility framework | Epistemic Gating & Anti-Loop Detection | Active Development |
+```
+
+**2. Technology Stack Header**
+
+Add this under the "Production Data & AI Infrastructure" section to visually reinforce your technical breadth.
+
+```markdown
+### Technologies I Use Frequently
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
+![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
+![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![Kafka](https://img.shields.io/badge/Apache_Kafka-231F20?style=for-the-badge&logo=apache-kafka&logoColor=white)
+![Ray](https://img.shields.io/badge/Ray-0288D1?style=for-the-badge&logo=ray&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 ```
