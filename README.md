@@ -23,6 +23,9 @@ The central question organizing my 2026 research: **Can we build AI systems that
 
 ---
 
+<img width="2752" height="1536" alt="The_Year_of_the_Builder" src="https://github.com/user-attachments/assets/2a21a311-5a79-4343-8507-deb4ab639ec1" />
+
+
 ### I. The Research Architecture: From Information to Validated Capability
 
 The current phase of my work transitions from applied AI construction to the engineering of intelligence. The architecture below maps the lifecycle of knowledge through my interconnected research systems.
