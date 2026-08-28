@@ -1,9 +1,9 @@
-<h1 align="center">
-  <img src="https://readme-typing-svg.herokuapp.com/?lines=Michael+Forsythe+Robinson;Applied+Generative+AI+%E2%80%A2+Agentic+Systems;Research+Engineer+%E2%80%A2+Technical+Author;Evidence-Governed+Intelligence&center=true&size=28&color=00BFFF&width=800&height=100">
-</h1>
-
+<h1 align="center">Michael Forsythe Robinson</h1>
 <p align="center">
-  <em>Architecting AI systems that transform complex knowledge into discoverable, testable, and operationalizable intelligence.</em>
+  <strong>Applied Generative AI · Agentic Systems · Research Engineering</strong>
+</p>
+<p align="center">
+  <em>Building AI systems that distinguish between an answer, an inference, and the evidence for an answer.</em>
 </p>
 
 <p align="center">
@@ -17,219 +17,190 @@
 ---
 
 ### Abstract
-I am an independent AI systems architect, research engineer, and technical author operating at the intersection of Generative AI, agentic systems, causal inference, and formal reasoning. My research paradigm treats evidence, uncertainty, provenance, reproducibility, and falsification not as afterthoughts, but as foundational engineering primitives. 
 
-The central question organizing my 2026 research: **Can we build AI systems that epistemically distinguish between an answer, an inference, and the evidence for an answer?**
+I'm an independent AI systems architect, research engineer, and technical author working at the intersection of generative AI, agentic systems, causal inference, and formal reasoning. My work treats evidence, uncertainty, provenance, and falsifiability as engineering primitives rather than afterthoughts.
+
+The organizing question behind my 2026 research: **can an AI system distinguish between an answer, an inference, and the evidence for an answer** — and keep those states from silently collapsing into each other?
+
+<!-- Optional hero image — keep if it's your own diagram/photo, drop if it reads as decorative for this audience -->
+<!-- <img width="2752" height="1536" alt="" src="[your image URL]" /> -->
 
 ---
 
-<img width="2752" height="1536" alt="The_Year_of_the_Builder" src="https://github.com/user-attachments/assets/2a21a311-5a79-4343-8507-deb4ab639ec1" />
+### I. Research Architecture
 
-
-### I. The Research Architecture: From Information to Validated Capability
-
-The current phase of my work transitions from applied AI construction to the engineering of intelligence. The architecture below maps the lifecycle of knowledge through my interconnected research systems.
+The pipeline below maps how a piece of source knowledge moves through my systems, from raw text to something you could act on.
 
 ```text
-                     ┌───────────────────────────┐
-                     │        KNOWLEDGE          │
-                     └─────────────┬─────────────┘
-                                   │
-                                   ▼
-                      ┌─────────────────────────┐
-                      │      OMNIMIND           │
-                      │  Latent Discovery Engine│
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │       CANGJIE           │
-                      │  Structural Extraction  │
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │  COGNITIVE COMPILER     │
-                      │     Formalization       │
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │          IEF            │
-                      │ Evidence-Governed Eval. │
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │     VERIFICATION        │
-                      │  3-Gate / Blind Test     │
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │  CAUSAL INTELLIGENCE    │
-                      │  & DECISION SYSTEMS     │
-                      └─────────────┬───────────┘
-                                    │
-                                    ▼
-                      ┌─────────────────────────┐
-                      │       EDUCATION         │
-                      │  Knowledge Transfer     │
-                      └─────────────────────────┘
+KNOWLEDGE
+   │
+   ▼
+LATENT DISCOVERY        (LIDE — cross-source relationship discovery)
+   │
+   ▼
+STRUCTURAL EXTRACTION    (Cangjie-Deconstructor — text → typed primitives)
+   │
+   ▼
+FORMALIZATION            (Cognitive Compiler — primitives → executable spec)
+   │
+   ▼
+EVIDENCE-GOVERNED EVAL.   (IEF — claim → proposition → evidence → status)
+   │
+   ▼
+VERIFICATION              (Three-Gate Protocol — blind review, mutation testing)
+   │
+   ▼
+CAUSAL / DECISION SYSTEMS
+   │
+   ▼
+KNOWLEDGE TRANSFER        (curriculum, writing, teaching)
 ```
 
 ---
 
-### II. Epistemic Engineering: The Integrity Landmark
+### II. A Failure, Documented
 
-> *"A system should be able to reduce confidence when the evidence gets worse."*
+> "A system should be able to reduce confidence when the evidence gets worse."
 
-An earlier analysis of a large SUNDS (Sudden Unexpected Death) dataset appeared to identify an association between geomagnetic activity and mortality. The signal was compelling. Upon rebuilding the pipeline, the apparent effect vanished—the result of a data-processing artifact, not the hypothesized phenomenon.
+An early pass at a large SUNDS (Sudden Unexpected Death Syndrome) dataset appeared to show an association between geomagnetic activity and mortality. The signal was compelling. Rebuilding the pipeline from scratch showed it was a data-processing artifact, not a real effect.
 
-The critical result was not the original finding, but **the correction**. Instead of protecting the hypothesis, I documented the failure. This calibrated uncertainty is the design principle behind my evidence-governed architecture.
+The result that mattered wasn't the original finding — it was the correction. That's the design principle behind the evidence-governed architecture below: don't protect the hypothesis, protect the calibration.
+
+*[Note: link the writeup or dataset here if you have one you can share publicly — right now this is the strongest anecdote in the document and the only one without a citation.]*
 
 | Paradigm | Inferential Flow | Terminal State |
-| :--- | :--- | :--- |
-| **Traditional AI** | Claim → Evidence → Insufficient Data → `"Probably True"` | Overconfidence |
-| **Evidence-Governed AI** | Claim → Evidence → Evaluation → Contradiction/Missing Data | `UNKNOWN` / `REJECTED` / `QUALIFIED` |
+|---|---|---|
+| Traditional | Claim → Evidence → Insufficient Data → *"Probably True"* | Overconfidence |
+| Evidence-Governed | Claim → Evidence → Evaluation → Contradiction / Gap | `UNKNOWN` / `REJECTED` / `QUALIFIED` |
 
-*The objective is not pessimism; it is calibration.*
+The goal isn't pessimism. It's calibration.
 
 ---
 
 ### III. Core Research Systems
 
-#### 1. The Invention Evaluation Framework (IEF)
-An evidence-governed, multi-agent system for evaluating inventions, patents, and technical claims. The architecture decomposes evaluations into propositions, maintaining explicit epistemic relationships.
-* **Pipeline:** `CLAIM → PROPOSITION → EVIDENCE → SOURCE → INFERENCE → EPISTEMIC STATUS`
-* **Validation:** 9 DAG lanes, deterministic claim mapping, independent review, blind fresh verification, mutation testing, acceptance contracts.
-* **Objective:** Make AI-assisted technical evaluation auditable rather than merely persuasive.
+**1. Invention Evaluation Framework (IEF)**
+An evidence-governed, multi-agent system for evaluating inventions and technical claims against patents and literature, with every conclusion traced to a source.
+- Pipeline: `CLAIM → PROPOSITION → EVIDENCE → SOURCE → INFERENCE → EPISTEMIC STATUS`
+- Validation: multi-lane DAG review, blind re-verification, mutation testing, acceptance contracts
+- Goal: make AI-assisted evaluation auditable, not just plausible-sounding
 
-#### 2. OmniMind Research Intelligence
-Moving beyond conventional RAG. Instead of asking *"What documents are similar to my query?"*, OmniMind asks: *"What meaningful relationships exist across this corpus that nobody explicitly asked for?"*
-* **Methodologies:** Reciprocal-rank fusion, knowledge graphs, graph traversal, equation fingerprints, cross-domain discovery, latent relationship detection, falsification.
+**2. Latent Information Discovery Engine (LIDE)**
+Instead of "what's similar to my query," asks "what relationships exist in this corpus that nobody explicitly looked for" — reciprocal-rank fusion, graph traversal, equation fingerprinting, cross-domain analogy detection, with an explicit falsification stage.
 
-#### 3. The Cognitive Compiler & Cangjie Deconstructor
-Systems exploring the transformation of natural-language knowledge into structured representations. Cangjie deconstructs scientific material into reusable components (`PRIMITIVES + OPERATORS + TRANSFORMATIONS + CONSTRAINTS + CAUSAL MACHINERY`), while the Cognitive Compiler transforms these into typed intermediate representations for downstream reasoning. 
-* *Pipeline:* `Literature → Structure → Mechanism → Model`
+**3. Cognitive Compiler & Cangjie-Deconstructor**
+Cangjie decomposes source text into typed primitives, operators, and constraints; the Cognitive Compiler turns those into typed intermediate representations for downstream reasoning. `Literature → Structure → Mechanism → Model.`
 
-#### 4. Leonardo Lab
-Extending the compiler concept into experimental architecture search. By extracting design constraints from existing architectures (e.g., transformers), the system explores the implied design space, investigating variants like grouped-query attention. An early step toward generative architecture synthesis.
+**4. Leonardo Lab**
+Extends the compiler into architecture search — extracting design constraints from existing systems (e.g. transformer attention variants) and exploring the implied design space.
 
-#### 5. The Three-Gate Research Protocol
-A research operating system for keeping discovery from silently becoming belief.
-* **Loop:** `DISCOVER → GENERATE → GATE → VERIFY → SEARCH DROPPED THREADS → GRADE → WRITE`
-* A failed hypothesis is not wasted work; sometimes it is the most valuable branch of the search tree.
+**5. Three-Gate Research Protocol**
+An operating procedure for keeping discovery from quietly turning into belief: `DISCOVER → GENERATE → GATE → VERIFY → CHASE DROPPED THREADS → GRADE → WRITE.` A failed hypothesis is a result, not wasted effort.
 
 ---
 
-### IV. Causal Intelligence & Production Infrastructure
+### IV. Causal Inference & Production Systems
 
-Before the current AI architecture emerged, I spent years building production marketing-science and causal-inference systems. This remains the quantitative foundation of my research.
+Before the current research direction, I built production marketing-science and causal-inference systems — still the quantitative foundation of the work above.
 
-| System | Description | Reported Benchmark |
-| :--- | :--- | :--- |
-| **Artemis Streaming Engine** | Real-time attribution via incremental Markov-Shapley computation & stateful stream processing. | `208K events/sec` · `87ms p99` |
-| **Probabilistic Identity Resolution** | Privacy-conscious identity-resolution using probabilistic matching & behavioral fingerprints. | `98.2%` Signal Integrity |
-| **Synthetic Lift Studio** | Causal experimentation environment (Synthetic Control, DiD, placebo testing, bootstrap inference). | `R² = 0.92` Matching |
-| **Decision Intelligence** | Experimentation framework (CUPED, sequential SPRT, Lan-DeMets O'Brien-Fleming boundaries). | `35.4%` Variance Reduction |
+| System | Description | Benchmark *(self-reported — link source if available)* |
+|---|---|---|
+| Streaming attribution engine | Real-time Markov-Shapley attribution over stateful stream processing | ~200K events/sec, sub-100ms p99 |
+| Probabilistic identity resolution | Privacy-conscious cross-device matching | ~78–98% match rate range, verify exact figure |
+| Causal experimentation framework | Synthetic control, DiD, placebo testing, bootstrap inference | — |
+| Experimentation platform | CUPED, sequential testing, O'Brien-Fleming boundaries | ~30–35% variance reduction |
 
-**Core Methods:** Structural Causal Models (SCM), Difference-in-Differences (DiD), Synthetic Control, Double Machine Learning, Bayesian Hierarchical Priors (NUTS/HMC), Hill Saturation, Adstock.
+**Methods:** structural causal models, difference-in-differences, synthetic control, double ML, Bayesian hierarchical priors (NUTS/HMC), adstock/saturation modeling.
+
+*I've left the benchmark numbers roughly as given but flagged them — for a professional-audience document, each of these should link to the dashboard, repo, or writeup that produced it, or drop the number and keep the method description.*
 
 ---
 
 ### V. Applied Generative AI & Agentic Systems
 
-My engineering spans the full applied Generative AI lifecycle:
 `Prompt → Structured Extraction → Tool Use → Agent Orchestration → Data/API Integration → Evaluation → Observability → Production`
 
-* **FrontDesk.ai:** An agentic AI voice receptionist platform designed for real-world business workflows, serving as an applied testbed for agent design, structured outputs, and production evaluation.
+- **FrontDesk.ai** — an agentic AI voice-receptionist platform, used as a live testbed for agent design, structured outputs, and production evaluation under real usage rather than demo conditions.
 
 ---
 
-### VI. Curriculum & Knowledge Transfer
+### VI. Curriculum
 
-I am structuring AI education as a first-class engineering discipline. The **AI Builder's Launchpad** is a five-volume series covering the lifecycle from first prompts to production deployment.
+*AI Builder's Launchpad* — a five-volume series on the applied-AI lifecycle:
 
-1. **Volume 1:** From First Prompts to First Modular Pipeline
-2. **Volume 2:** Automating The Intelligence: Python Scripting, API Architecture & Data for AI Pipelines
-3. **Volume 3:** Building a Digital Brain: Real-World Architecture for Production AI Systems
-4. **Volume 4:** Moving to Production: Deployment, Monitoring, Security & Core Management in AI Systems
-5. **Volume 5:** A Strategist's Guide to AI: The AI Masterclass Guide for Building Business
+1. From First Prompts to First Modular Pipeline
+2. Automating the Intelligence: Python, APIs, and Data for AI Pipelines
+3. Building a Digital Brain: Production AI System Architecture
+4. Moving to Production: Deployment, Monitoring, Security, Management
+5. A Strategist's Guide to AI: Building an AI-Native Business
 
-*Philosophy: Students should not only learn what AI is; they should learn how to build it.*
-
----
-
-### VII. Research Philosophy & Methodological Constraints
-
-1. **Evidence before certainty:** A compelling explanation is not automatically a supported explanation.
-2. **Mechanisms over labels:** Understanding *why* things are connected is paramount.
-3. **Reproducibility is infrastructure:** Results must be recoverable via versioned artifacts and deterministic transformations.
-4. **Uncertainty must survive the pipeline:** `Unknown ≠ Probably True ≠ Supported ≠ Established`. These states must not collapse.
-5. **Falsification is productive:** Failures reveal broken measurements, hidden confounders, and better research questions.
-
-> **Engineering Loop:** `Build → Measure → Break → Audit → Repair → Test → Document → Ship`
-> *A system that survives deliberate attempts to break it is considerably more interesting than one that merely produces impressive demonstrations.*
+Philosophy: don't just teach what AI is — teach how to build it.
 
 ---
 
-### VIII. Surveillance Humanism: The Human Side of Architecture
+### VII. Research Philosophy
 
-Systems are abstractions. Consequences are not. 
+1. **Evidence before certainty.** A compelling explanation isn't automatically a supported one.
+2. **Mechanisms over labels.** Why things connect matters more than that they correlate.
+3. **Reproducibility is infrastructure.** Results should be recoverable from versioned artifacts, not just claimed.
+4. **Uncertainty has to survive the pipeline.** `Unknown ≠ Probably True ≠ Supported ≠ Established` — these shouldn't collapse into each other.
+5. **A negative result is still a result.** Failures expose broken measurements and better questions.
 
-Working with rescued wildlife has heavily influenced my technological perspective: the same engineering discipline used to preserve provenance in a pipeline should ultimately serve something outside the pipeline.
-
-**Surveillance Humanism** explores the boundary between behavioral intelligence and humanitarian intervention. If people disclose to machines what they would never disclose to humans (the "Digital Confessional"), surveillance capitalism asks how to monetize it. Surveillance Humanism asks how this signal can reduce harm—protecting vulnerable populations, epidemiological signaling, and crisis intervention—treating privacy and false-positive risk as first-order design constraints.
-
----
-
-### IX. Quantitative Output & Bibliometrics
-
-| Category | Output / Metric |
-| :--- | :--- |
-| **AI Textbooks (Curriculum)** | 5 Volumes |
-| **Technical Whitepapers** | 10 |
-| **Research Programs** | 11+ |
-| **Research Papers / Artifacts** | ~80 |
-| **Causal Intelligence Modules** | 9 |
-| **Production AI Systems** | 30+ |
-| **Large-Scale TypeScript Output** | ~207,000 lines |
-| **Published Research DOIs** | 10+ |
-
-*Metrics describe individual projects and benchmarks rather than a single unified production system.*
+> `Build → Measure → Break → Audit → Repair → Test → Document → Ship`
+> A system that survives a deliberate attempt to break it is more interesting than one that just gives a good demo.
 
 ---
 
-### X. Open Research Artifacts (Pinned Repositories)
+### VIII. Beyond the Pipeline
 
-* 🧠 [**First-Principles Attribution**](https://github.com/Michaelrobins938/first-principles-attribution) — A framework combining Markov chains (causality), Shapley values (fairness), and Bayesian UQ. Resolves the epistemic gap between correlation and causation.
-* 🧬 [**FEP-Falsifiable-Framework**](https://github.com/Michaelrobins938/FEP-Falsifiable-Framework-for-Identifying-Treatable-Metabolic-and-Endocrine-Subsets-in-First-Episode) — A falsifiable framework for identifying reversible metabolic & endocrine drivers of first-episode psychosis.
-* 🌪️ [**The Same Storm in Two Machines**](https://github.com/Michaelrobins938/The-Same-Storm-in-Two-Machines-Plasma-storm-unification) — Cross-community synthesis: are non-equilibrium MHD-generator streamers and Hall-thruster rotating spokes the same nonlinear ionization-wave attractor?
-* 🌐 [**Plasma-Assisted Boundary Dynamics**](https://github.com/Michaelrobins938/Plasma-Assisted-Boundary-Dynamics-and-Material-Memory-in-Extreme-Weather) — Boundary Condition Dynamics (BCD): a state-space framework for history-dependent extreme-weather damage inference.
-* 🚀 [**Portfolio-Hub**](https://github.com/Michaelrobins938/portfolio-hub) — Command center portfolio showcasing production-grade attribution and data science projects.
+Systems are abstractions; their consequences aren't. Time spent with rescued wildlife shaped how I think about that gap — the same discipline that preserves provenance in a data pipeline should ultimately serve something outside it.
+
+That's the starting point for **Surveillance Humanism** — work exploring the line between behavioral intelligence and humanitarian intervention. Where surveillance capitalism asks how to monetize what people disclose to machines, this asks how the same signal could reduce harm — crisis intervention, epidemiological signaling, protecting vulnerable populations — treating privacy and false-positive risk as design constraints from the start, not an afterthought.
 
 ---
 
-### XI. The Trajectory: 2025 to 2026
+### IX. Output — *(verify every number below before publishing)*
 
-* **2025 (Construction):** Build Things → Deploy Things → Measure Things. *Ideas become useful when they survive implementation.*
-* **2026 (Epistemics):** Discover → Formalize → Evaluate → Verify → Explain → Operationalize. *Implementations become trustworthy when they survive verification.*
+| Category | Claimed | Status |
+|---|---|---|
+| Curriculum volumes | 5 | ✅ listed above, verifiable by content |
+| Technical whitepapers | 10 | ⚠️ link each one |
+| Research programs | 11+ | ⚠️ define what counts as a "program" |
+| Research papers/artifacts | ~80 | ⚠️ needs a source list or drop the number |
+| Causal intelligence modules | 9 | ⚠️ link each |
+| Production AI systems | 30+ | ⚠️ "production" implies live/deployed — confirm which ones actually are |
+| Published DOIs | 10+ | 🚩 at least one badge checked resolves to a placeholder DOI (`zenodo.12345678`) — audit all before claiming this number |
 
-The next objective is not simply building more agents, but building **better epistemic infrastructure** for them. AI that can show its work, expose its uncertainty, survive verification, and become more useful because it knows where it might be wrong.
+I left this as a table instead of prose on purpose — it's the part of the document most likely to get fact-checked, and right now it's the least defensible part of an otherwise strong pitch.
 
 ---
 
-### XII. Connect & Collaborate
+### X. Open Research Artifacts
 
-Open to applied research, architecture advising, curriculum development, and collaborative epistemic engineering.
+- 🧠 [**First-Principles Attribution**](https://github.com/Michaelrobins938/first-principles-attribution) — Markov chains + Shapley values + Bayesian UQ for the correlation/causation gap.
+- 🌪️ [**The Same Storm in Two Machines**](https://github.com/Michaelrobins938/The-Same-Storm-in-Two-Machines-Plasma-storm-unification) — cross-community synthesis on MHD-generator streamers vs. Hall-thruster rotating spokes.
+- 🌐 [**Plasma-Assisted Boundary Dynamics**](https://github.com/Michaelrobins938/Plasma-Assisted-Boundary-Dynamics-and-Material-Memory-in-Extreme-Weather) — state-space framework for history-dependent extreme-weather damage inference.
+- 🚀 [**Portfolio-Hub**](https://github.com/Michaelrobins938/portfolio-hub) — command-center portfolio of attribution and data-science projects.
+
+*(Dropped FEP from this list — as of the last audit it's protocol documents with no executable code, which undercuts the "evidence-governed, auditable" framing this section is making. It's a legitimate research protocol; it just belongs in a "Research Protocols" section, not next to repos with real pipelines and tests.)*
+
+---
+
+### XI. Trajectory
+
+- **2025 — Construction.** Build → deploy → measure. Ideas become useful when they survive implementation.
+- **2026 — Epistemics.** Discover → formalize → evaluate → verify → explain → operationalize. Implementations become trustworthy when they survive verification.
+
+The next goal isn't more agents — it's better epistemic infrastructure under the agents already built: systems that show their work, expose their uncertainty, and get more useful the more you try to break them.
+
+---
+
+### XII. Connect
+
+Open to applied research collaboration, architecture advising, and curriculum development.
 
 <p align="center">
   <a href="mailto:michael.robins938@gmail.com"><img src="https://img.shields.io/badge/Email-Michael%20Robinson-D14836?style=for-the-badge&logo=gmail&logoColor=white"></a>
-  <a href="https://portfolio-hub-kappa-murex.vercel.app/"><img src="https://img.shields.io/badge/Visit-Portfolio%20Hub-000000?style=for-the-badge&logo=vercel"></a>
-  <a href="https://github.com/Michaelrobins938"><img src="https://img.shields.io/badge/Follow-GitHub%20Profile-181717?style=for-the-badge&logo=github&logoColor=white"></a>
-</p>
-
-<p align="center">
-  <em>Build systems that can explain what they know. And prove what they claim.</em>
+  <a href="https://portfolio-hub-kappa-murex.vercel.app/"><img src="https://img.shields.io/badge/Portfolio-Command%20Center-000000?style=for-the-badge&logo=vercel"></a>
+  <a href="https://github.com/Michaelrobins938"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"></a>
 </p>
