@@ -1,4 +1,3 @@
-<img width="1376" height="768" alt="The_Executable_Blueprint_-_Slide_1" src="https://github.com/user-attachments/assets/fb0d5e84-8d56-4cc0-95c6-6b7559950c65" />
 <h1 align="center">Michael Forsythe Robinson</h1>
 <p align="center">
   <strong>Applied Generative AI · Agentic Systems · Research Engineering</strong>
