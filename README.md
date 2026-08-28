@@ -22,9 +22,8 @@ I'm an independent AI systems architect, research engineer, and technical author
 
 The organizing question behind my 2026 research: **can an AI system distinguish between an answer, an inference, and the evidence for an answer** — and keep those states from silently collapsing into each other?
 
-<!-- Optional hero image — keep if it's your own diagram/photo, drop if it reads as decorative for this audience -->
-<!-- <img width="1376" height="768" alt="The_Causal_Architect_-_Slide_1" src="https://github.com/user-attachments/assets/1856e964-79f4-4006-92df-d73083020d05" />
- -->
+<img width="1376" height="768" alt="The_Causal_Architect_-_Slide_1" src="https://github.com/user-attachments/assets/10568054-f411-4e78-a79c-01d6fb19c5f7" />
+
 
 ---
 
@@ -67,7 +66,6 @@ An early pass at a large SUNDS (Sudden Unexpected Death Syndrome) dataset appear
 
 The result that mattered wasn't the original finding — it was the correction. That's the design principle behind the evidence-governed architecture below: don't protect the hypothesis, protect the calibration.
 
-*[Note: link the writeup or dataset here if you have one you can share publicly — right now this is the strongest anecdote in the document and the only one without a citation.]*
 
 | Paradigm | Inferential Flow | Terminal State |
 |---|---|---|
@@ -112,8 +110,6 @@ Before the current research direction, I built production marketing-science and 
 | Experimentation platform | CUPED, sequential testing, O'Brien-Fleming boundaries | ~30–35% variance reduction |
 
 **Methods:** structural causal models, difference-in-differences, synthetic control, double ML, Bayesian hierarchical priors (NUTS/HMC), adstock/saturation modeling.
-
-*I've left the benchmark numbers roughly as given but flagged them — for a professional-audience document, each of these should link to the dashboard, repo, or writeup that produced it, or drop the number and keep the method description.*
 
 ---
 
@@ -172,7 +168,6 @@ That's the starting point for **Surveillance Humanism** — work exploring the l
 | Production AI systems | 30+ | ⚠️ "production" implies live/deployed — confirm which ones actually are |
 | Published DOIs | 10+ | 🚩 at least one badge checked resolves to a placeholder DOI (`zenodo.12345678`) — audit all before claiming this number |
 
-I left this as a table instead of prose on purpose — it's the part of the document most likely to get fact-checked, and right now it's the least defensible part of an otherwise strong pitch.
 
 ---
 
@@ -183,7 +178,6 @@ I left this as a table instead of prose on purpose — it's the part of the docu
 - 🌐 [**Plasma-Assisted Boundary Dynamics**](https://github.com/Michaelrobins938/Plasma-Assisted-Boundary-Dynamics-and-Material-Memory-in-Extreme-Weather) — state-space framework for history-dependent extreme-weather damage inference.
 - 🚀 [**Portfolio-Hub**](https://github.com/Michaelrobins938/portfolio-hub) — command-center portfolio of attribution and data-science projects.
 
-*(Dropped FEP from this list — as of the last audit it's protocol documents with no executable code, which undercuts the "evidence-governed, auditable" framing this section is making. It's a legitimate research protocol; it just belongs in a "Research Protocols" section, not next to repos with real pipelines and tests.)*
 
 ---
 
