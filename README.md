@@ -23,7 +23,8 @@ I'm an independent AI systems architect, research engineer, and technical author
 The organizing question behind my 2026 research: **can an AI system distinguish between an answer, an inference, and the evidence for an answer** — and keep those states from silently collapsing into each other?
 
 <!-- Optional hero image — keep if it's your own diagram/photo, drop if it reads as decorative for this audience -->
-<!-- <img width="2752" height="1536" alt="" src="[your image URL]" /> -->
+<!-- <img width="1376" height="768" alt="The_Causal_Architect_-_Slide_1" src="https://github.com/user-attachments/assets/1856e964-79f4-4006-92df-d73083020d05" />
+ -->
 
 ---
 
